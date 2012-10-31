@@ -1,49 +1,70 @@
 <?php
 
 class CreditsSourceAction extends FormlessAction {
-
+	/**
+	 * @return String
+	 */
 	public function getName() {
 		return 'credits';
 	}
 
+	/**
+	 * @return String
+	 */
 	protected function getDescription() {
-		return $this->msg( 'csrc_creditpage' )->escaped();
+		return $this->msg( 'creditssource-creditpage' )->escaped();
 	}
 
+	/**
+	 * @return String
+	 */
 	public function onView() {
 		if ( $this->page->getID() == 0 ) {
-			$s = $this->msg( 'nocredits' )->parse();
+			$content = $this->msg( 'nocredits' )->parse();
 		} else {
-			$s = $this->getCredits();
+			$content = self::getCredits( $this->page->getId() );
 		}
-		return Html::rawElement( 'div', array( 'id' => 'mw-credits' ), $s );
+
+		return Html::rawElement( 'div', array( 'id' => 'mw-credits' ), $content );
 	}
 
-	public function getCredits() {
+	/**
+	 * @param int $pageId
+	 * @return string
+	 */
+	public static function getCredits( $pageId ) {
+		global $wgTitle, $wgLang;
+
 		wfProfileIn( __METHOD__ );
-		$pageId = $this->page->getId();
 
-		$sw = SimpleSourceWork::newFromPageId( $pageId );
+		$sourceWork = SimpleSourceWork::newFromPageId( $pageId );
 
-		if ( $sw === null ) {
+		if ( $sourceWork === null ) {
 			wfProfileOut( __METHOD__ );
 			return '';
 		}
 
-		$histLink = Linker::linkKnown(
-			$this->getTitle(),
-			wfMsg( 'csrc_historypage' ),
+		$sourceLink = Linker::makeExternalLink( $sourceWork->mUri, $sourceWork->mTitle );
+		$siteLink = Linker::makeExternalLink( $sourceWork->mSiteUri, $sourceWork->mSiteName );
+		$historyLink = Linker::linkKnown(
+			$wgTitle,
+			wfMessage( 'creditssource-historypage' )->text(),
 			array(),
 			array( 'action' => 'history' )
 		);
-		$srcLink = Linker::makeExternalLink( $sw->mUri, $sw->mTitle );
-		$siteLink = Linker::makeExternalLink( $sw->mSiteUri, $sw->mSiteName );
-		$ret = wfMsgWikiHtml(
-			'csrc_source_work', $srcLink, $siteLink,
-			$this->getLanguage()->timeanddate( $sw->mTs ),
-			$sw->mSiteShortName, $histLink
-		);
+
+		// This is safe, since we don't allow writing to the swsite tables. If that
+		// changes in the future, mSiteShortName will need to be escaped here.
+		$return = wfMessage( 'creditssource-source-work' )->params(
+			$sourceLink,
+			$siteLink,
+			$wgLang->timeanddate( $sourceWork->mTs ),
+			$sourceWork->mSiteShortName,
+			$historyLink
+		)->text();
+
 		wfProfileOut( __METHOD__ );
-		return $ret;
+
+		return $return;
 	}
 }
