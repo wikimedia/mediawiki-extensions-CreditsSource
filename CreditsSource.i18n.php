@@ -49,6 +49,25 @@ $messages['fr'] = array(
 	'creditssource-historypage' => "page de l'histoire",
 );
 
+/** Galician (galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'creditssource-desc' => 'Mostra os créditos no pé de páxina',
+	'creditssource-source-work' => 'Este artigo deriva do artigo "$1" de $2 na súa revisión do $3 (UTC). Alí, está publicado baixo a licenza CC-by-sa 3.0. Pode atopar máis detalles e a lista completa de colaboradores na $5 asociada. (Os colaboradores do Wikitravel están marcados co prefixo "$4").',
+	'creditssource-historypage' => 'páxina de historial',
+	'creditssource-creditpage' => 'Proporciona os créditos.',
+);
+
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'creditssource-desc' => 'ページのフッターに元の記事のクレジットを表示する',
+	'creditssource-historypage' => '履歴ページ',
+	'creditssource-creditpage' => '元の記事のクレジットを表示します。',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
@@ -57,4 +76,11 @@ $messages['mk'] = array(
 	'creditssource-source-work' => 'Статијава е изведена од статијата $1 на $2 во нејзината ревизија од $3 (UTC). Таму е објавена под лиценцата CC-by-sa 3.0. Повеќе информации и полн список на учесниците ќе најдете на $5. (Учесниците на Wikitravel се означени со претставката $4).',
 	'creditssource-historypage' => 'историја',
 	'creditssource-creditpage' => 'Припишува користени изворни дела.',
+);
+
+/** Dutch (Nederlands)
+ * @author SPQRobin
+ */
+$messages['nl'] = array(
+	'creditssource-historypage' => 'geschiedenispagina',
 );
