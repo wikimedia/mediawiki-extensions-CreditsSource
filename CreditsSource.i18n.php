@@ -43,10 +43,14 @@ $messages['es'] = array(
 );
 
 /** French (français)
+ * @author Gomoko
  * @author Hello71
  */
 $messages['fr'] = array(
+	'creditssource-desc' => 'Afficher les crédits de travail de la source dans le pied de la page',
+	'creditssource-source-work' => "Cet article est tiré de l'article $1 sur $2 dans sa révision du $3 (UTC). Ici, il est publié sous la licence CC-by-sa 3.0. Vous pouvez trouver plus de détails et la liste complète des contributeurs sur le $5 associé (les contributeurs Wikitravel sont repérés par le préfixe $4).",
 	'creditssource-historypage' => "page de l'histoire",
+	'creditssource-creditpage' => 'Donner un crédit pour les œuvres source.',
 );
 
 /** Galician (galego)
@@ -57,6 +61,14 @@ $messages['gl'] = array(
 	'creditssource-source-work' => 'Este artigo deriva do artigo "$1" de $2 na súa revisión do $3 (UTC). Alí, está publicado baixo a licenza CC-by-sa 3.0. Pode atopar máis detalles e a lista completa de colaboradores na $5 asociada. (Os colaboradores do Wikitravel están marcados co prefixo "$4").',
 	'creditssource-historypage' => 'páxina de historial',
 	'creditssource-creditpage' => 'Proporciona os créditos.',
+);
+
+/** Italian (italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'creditssource-desc' => "Mostra i crediti per l'opera nel piè di pagina",
+	'creditssource-historypage' => 'cronologia pagina',
 );
 
 /** Japanese (日本語)
