@@ -23,13 +23,14 @@ $messages['qqq'] = array(
 );
 
 /** German (Deutsch)
+ * @author G.Hagedorn
  * @author Metalhead64
  */
 $messages['de'] = array(
 	'creditssource-desc' => 'Ermöglicht die Namensnennungsanzeige von Quellwerken in der Fußzeile',
 	'creditssource-source-work' => 'Dieser Artikel ist abgeleitet vom Artikel $1 auf $2 in seiner Version von $3 (UTC). Dort wurde er unter der CC-BY-SA-3.0-Lizenz veröffentlicht. Mehr Informationen und eine volle Liste der Autoren befindet sich in der dazugehörigen $5. Wikitravel-Autoren werden durch das Präfix $4 markiert.',
 	'creditssource-historypage' => 'Versionsgeschichte',
-	'creditssource-creditpage' => 'Namensnennungen für Quellwerke',
+	'creditssource-creditpage' => 'Angaben zu den Quellen',
 );
 
 /** Spanish (español)
@@ -90,9 +91,23 @@ $messages['mk'] = array(
 	'creditssource-creditpage' => 'Припишува користени изворни дела.',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'creditssource-desc' => 'Memaparkan senarai penghargaan kerja sumber pada kaki halaman',
+	'creditssource-source-work' => 'Rencana ini dipetik dari rencana $1 di $2 dalam semakannya pada $3 (UTC). Di situ, ia diterbitkan di bawah lesen CC-BY-SA 3.0. Keterangan lanjut dan senarai penuh para penyumbang boleh didapati di $5 yang berkenaan. (Penyumbang Wikitravel ditandai dengan awalan $4).',
+	'creditssource-historypage' => 'halaman sejarah',
+	'creditssource-creditpage' => 'Memberikan penghargaan untuk kerja sumber.',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
+ * @author Siebrand
  */
 $messages['nl'] = array(
+	'creditssource-desc' => "Naamsvermeldingen voor het werk weergeven in de voettekst van pagina's",
+	'creditssource-source-work' => 'Deze pagina is afgeleid van de pagina $1 op $2, versie van $3 (UTC). Daar is de inhoud gelicenseerd onder de licentie CC BY-SA 3.0. Meer details en de volledige lijst van bijdragers kunnen geraadpleegd worden op de bijbehorende $5. Bijdragers van Wikitravel worden aangegeven met het voorvoegsel $4.',
 	'creditssource-historypage' => 'geschiedenispagina',
+	'creditssource-creditpage' => 'Geeft naamsvermeldingen voor bronwerken.',
 );
