@@ -81,6 +81,15 @@ $messages['ja'] = array(
 	'creditssource-creditpage' => '元の記事のクレジットを表示します。',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'creditssource-desc' => '문서 바닥글에 원본 작업 제작진 보이기',
+	'creditssource-historypage' => '역사 문서',
+	'creditssource-creditpage' => '원본 작업에 대한 제작진을 제공합니다.',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
@@ -110,4 +119,14 @@ $messages['nl'] = array(
 	'creditssource-source-work' => 'Deze pagina is afgeleid van de pagina $1 op $2, versie van $3 (UTC). Daar is de inhoud gelicenseerd onder de licentie CC BY-SA 3.0. Meer details en de volledige lijst van bijdragers kunnen geraadpleegd worden op de bijbehorende $5. Bijdragers van Wikitravel worden aangegeven met het voorvoegsel $4.',
 	'creditssource-historypage' => 'geschiedenispagina',
 	'creditssource-creditpage' => 'Geeft naamsvermeldingen voor bronwerken.',
+);
+
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'creditssource-desc' => 'Hiển thị lời ghi công tác phẩm gốc ở cuối trang',
+	'creditssource-source-work' => 'Bài này bắt nguồn từ bài $1 tại $2, phiên bản vào $3 (UTC). Bản gốc ở đấy được phát hành theo giấy phép CC BY-SA 3.0. Xem thêm chi tiết và danh sách người đóng góp đầy đủ tại $5. (Những người đóng góp ở Wikitravel có tiền tố $4).',
+	'creditssource-historypage' => 'trang lịch sử',
+	'creditssource-creditpage' => 'Ghi công các tác phẩm gốc.',
 );
