@@ -26,22 +26,4 @@ class CreditsSourceHooks {
 
 		return true;
 	}
-
-	/**
-	 * @param SkinTemplate $skinTpl
-	 * @param QuickTemplate $QuickTmpl
-	 * @return bool
-	 */
-	public static function onSkinTemplateOutputPageBeforeExec( SkinTemplate &$skinTpl, &$QuickTmpl ) {
-		$credits = CreditsSourceAction::getCredits( $skinTpl->getTitle()->getArticleID() );
-
-		if ( $credits ) {
-			$oldcredits = $QuickTmpl->data['credits'];
-			$credits = $oldcredits ? "$credits<br />\n$oldcredits" : $credits;
-
-			$QuickTmpl->set( 'credits', $credits );
-		}
-
-		return true;
-	}
 }

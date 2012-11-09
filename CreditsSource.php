@@ -14,7 +14,6 @@ $wgExtensionMessagesFiles['CreditsSource'] = __DIR__ . '/CreditsSource.i18n.php'
 
 // hooks
 $wgHooks['LoadExtensionSchemaUpdates'][] = 'CreditsSourceHooks::loadExtensionSchemaUpdates';
-$wgHooks['SkinTemplateOutputPageBeforeExec'][] = 'CreditsSourceHooks::onSkinTemplateOutputPageBeforeExec';
 
 // action handler
 $wgActions['credits'] = 'CreditsSourceAction';

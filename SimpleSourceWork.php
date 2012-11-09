@@ -13,12 +13,13 @@ class SimpleSourceWork {
 
 	/**
 	 * @param string|int $pageId
-	 * @return null|SimpleSourceWork
+	 * @param int[optional] $limit
+	 * @return array
 	 */
-	protected static function loadFromDb( $pageId ) {
+	protected static function loadFromDb( $pageId, $limit = 10 ) {
 		$dbr = wfGetDB( DB_SLAVE );
 
-		$row = $dbr->selectRow(
+		$rows = $dbr->select(
 			array( 'revision', 'revsrc', 'srcwork', 'swsite' ),
 			array(
 				'srcwork_id', 'srcwork_uri_part', 'srcwork_date', 'srcwork_title',
@@ -26,7 +27,7 @@ class SimpleSourceWork {
 			),
 			array( 'rev_page' => $pageId ),
 			__METHOD__,
-			array(),
+			array( 'LIMIT' => $limit ),
 			array(
 				'revsrc' => array(
 					'INNER JOIN',
@@ -43,19 +44,20 @@ class SimpleSourceWork {
 			)
 		);
 
-		if ( !$row ) {
-			return null;
+		$sources = array();
+		foreach ( $rows as $row ) {
+			$me = new self;
+			$me->mId = $row->srcwork_id;
+			$me->mUri = $row->sws_work_uri . $row->srcwork_uri_part;
+			$me->mTs = $row->srcwork_date;
+			$me->mTitle = $row->srcwork_title;
+			$me->mSiteName = $row->sws_name;
+			$me->mSiteShortName = $row->sws_short_name;
+			$me->mSiteUri = $row->sws_site_uri;
+
+			$sources[] = $me;
 		}
 
-		$me = new self;
-		$me->mId = $row->srcwork_id;
-		$me->mUri = $row->sws_work_uri . $row->srcwork_uri_part;
-		$me->mTs = $row->srcwork_date;
-		$me->mTitle = $row->srcwork_title;
-		$me->mSiteName = $row->sws_name;
-		$me->mSiteShortName = $row->sws_short_name;
-		$me->mSiteUri = $row->sws_site_uri;
-
-		return $me;
+		return $sources;
 	}
 }
