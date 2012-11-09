@@ -69,7 +69,9 @@ $messages['gl'] = array(
  */
 $messages['it'] = array(
 	'creditssource-desc' => "Mostra i crediti per l'opera nel piè di pagina",
+	'creditssource-source-work' => 'Questa voce deriva dalla voce $1 su $2 nella versione del $3 (UTC). Là, è stata pubblicata con licenza CC-BY SA 3.0. Maggiori dettagli e la lista completa dei contributori possono essere trovati nella $5 associata. (I contributori di Wikitravel sono contrassegnati dal prefisso $4).',
 	'creditssource-historypage' => 'cronologia pagina',
+	'creditssource-creditpage' => 'Fornisce i crediti per le opere di origine.',
 );
 
 /** Japanese (日本語)
@@ -86,6 +88,7 @@ $messages['ja'] = array(
  */
 $messages['ko'] = array(
 	'creditssource-desc' => '문서 바닥글에 원본 작업 제작진 보이기',
+	'creditssource-source-work' => '이 문서는 $3 (UTC)에 $1 문서의 $2 판에서 파생됩니다. 그래서 CC-by-sa 3.0 라이선스에 따라 게시합니다. 더 자세한 정보와 기여자의 전체 목록은 관련된 $5에서 찾을 수 있습니다. (Wikitravel 기여자는 $4 접두어로 보여집니다.)',
 	'creditssource-historypage' => '역사 문서',
 	'creditssource-creditpage' => '원본 작업에 대한 제작진을 제공합니다.',
 );
