@@ -16,9 +16,10 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'creditssource-desc' => '{{desc}}',
+	'creditssource-desc' => '{{desc|name=Credits Source|url=http://www.mediawiki.org/wiki/Extension:CreditsSource}}',
 	'creditssource-creditpage' => 'Description to be displayed on the credits action page.',
 );
 
@@ -64,6 +65,13 @@ $messages['gl'] = array(
 	'creditssource-creditpage' => 'Proporciona os créditos.',
 );
 
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'creditssource-historypage' => 'wersijowa historija',
+);
+
 /** Italian (italiano)
  * @author Beta16
  */
@@ -91,6 +99,13 @@ $messages['ko'] = array(
 	'creditssource-source-work' => '이 문서는 $3 (UTC)에 $1 문서의 $2 판에서 파생됩니다. 그래서 CC-by-sa 3.0 라이선스에 따라 게시합니다. 더 자세한 정보와 기여자의 전체 목록은 관련된 $5에서 찾을 수 있습니다. (Wikitravel 기여자는 $4 접두어로 보여집니다.)',
 	'creditssource-historypage' => '역사 문서',
 	'creditssource-creditpage' => '원본 작업에 대한 제작진을 제공합니다.',
+);
+
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'creditssource-historypage' => 'Versioune vun der Säit',
 );
 
 /** Macedonian (македонски)
