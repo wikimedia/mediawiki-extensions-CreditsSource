@@ -65,6 +65,16 @@ $messages['gl'] = array(
 	'creditssource-creditpage' => 'Proporciona os créditos.',
 );
 
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'creditssource-desc' => 'הצגת הקרדיטים על היצירה המקורית בתחתית הדף',
+	'creditssource-source-work' => 'הערך הזה נגזר מהערך $1 ב{{GRAMMAR:תחילית|$1}} בגרסה $3 (זמן יקום מתואם). שם הוא פורסם לפי רישיון CC-by-sa 3.0. פרטים נוספים ורשימה מלאה של התורמים לערך אפשר למצור ב{{GRAMMAR:תחילית|$5}}. (תורמי ויקיטיול מסומנים בתחילית $4.)', # Fuzzy
+	'creditssource-historypage' => 'דף היסטוריה',
+	'creditssource-creditpage' => 'מתן קרדיטים ליצירות המקוריות',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
