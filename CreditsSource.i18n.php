@@ -23,6 +23,16 @@ $messages['qqq'] = array(
 	'creditssource-creditpage' => 'Description to be displayed on the credits action page.',
 );
 
+/** Czech (česky)
+ * @author Mormegil
+ */
+$messages['cs'] = array(
+	'creditssource-desc' => 'Zobrazuje autorství zdrojového díla v patičce stránky',
+	'creditssource-source-work' => 'Tento článek je založen na článku $1 na {{grammar:6sg|$2}} ve verzi z $3 (UTC). Tam byl zveřejněn pod licencí CC-by-sa 3.0. Další podrobnosti a úplný seznam přispěvatelů můžete nalézt na přidružené $5. (Přispěvatelé z Wikitravel jsou označeni prefixem $4.)',
+	'creditssource-historypage' => 'stránce historie',
+	'creditssource-creditpage' => 'Uvádí autorství zdrojových děl.',
+);
+
 /** German (Deutsch)
  * @author G.Hagedorn
  * @author Metalhead64
@@ -32,6 +42,13 @@ $messages['de'] = array(
 	'creditssource-source-work' => 'Dieser Artikel ist abgeleitet vom Artikel $1 auf $2 in seiner Version von $3 (UTC). Dort wurde er unter der CC-BY-SA-3.0-Lizenz veröffentlicht. Mehr Informationen und eine volle Liste der Autoren befindet sich in der dazugehörigen $5. Wikitravel-Autoren werden durch das Präfix $4 markiert.',
 	'creditssource-historypage' => 'Versionsgeschichte',
 	'creditssource-creditpage' => 'Angaben zu den Quellen',
+);
+
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'creditssource-historypage' => 'verêna perer',
 );
 
 /** Spanish (español)
