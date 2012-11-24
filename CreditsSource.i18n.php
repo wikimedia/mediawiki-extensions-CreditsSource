@@ -23,6 +23,13 @@ $messages['qqq'] = array(
 	'creditssource-creditpage' => 'Description to be displayed on the credits action page.',
 );
 
+/** Breton (brezhoneg)
+ * @author Y-M D
+ */
+$messages['br'] = array(
+	'creditssource-historypage' => 'istor ar bajenn',
+);
+
 /** Czech (česky)
  * @author Mormegil
  */
