@@ -68,6 +68,14 @@ $messages['es'] = array(
 	'creditssource-creditpage' => 'Otorga créditos para las fuentes del trabajo.',
 );
 
+/** Finnish (suomi)
+ * @author Nedergard
+ */
+$messages['fi'] = array(
+	'creditssource-desc' => 'Näyttää alkuperäisen teoksen tekijätiedot alatunnisteessa',
+	'creditssource-historypage' => 'Muokkaushistoria',
+);
+
 /** French (français)
  * @author Gomoko
  * @author Hello71
