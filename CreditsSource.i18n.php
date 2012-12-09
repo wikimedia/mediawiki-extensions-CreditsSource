@@ -148,6 +148,7 @@ $messages['ko'] = array(
  */
 $messages['lb'] = array(
 	'creditssource-historypage' => 'Versioune vun der Säit',
+	'creditssource-creditpage' => "Weist d'Quelle fir se z'honoréieren.",
 );
 
 /** Macedonian (македонски)
