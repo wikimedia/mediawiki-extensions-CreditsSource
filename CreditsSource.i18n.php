@@ -58,6 +58,13 @@ $messages['diq'] = array(
 	'creditssource-historypage' => 'verêna perer',
 );
 
+/** Greek (Ελληνικά)
+ * @author ZaDiak
+ */
+$messages['el'] = array(
+	'creditssource-historypage' => 'ιστορικό σελίδας',
+);
+
 /** Spanish (español)
  * @author Armando-Martin
  */
@@ -66,6 +73,13 @@ $messages['es'] = array(
 	'creditssource-source-work' => 'Este artículo se deriva del artículo $1 de $2 en su revisión de $3 (UTC). Allí, se publica bajo la licencia CC-by-sa 3.0. Puede encontrar más detalles y la lista completa de colaboradores en el archivo asociado $5. (Los colaboradores de Wikitravel están marcados con el prefijo $4).',
 	'creditssource-historypage' => 'historial de página',
 	'creditssource-creditpage' => 'Otorga créditos para las fuentes del trabajo.',
+);
+
+/** Estonian (eesti)
+ * @author Avjoska
+ */
+$messages['et'] = array(
+	'creditssource-historypage' => 'muudatuste ajalugu',
 );
 
 /** Finnish (suomi)
@@ -180,6 +194,20 @@ $messages['nl'] = array(
 	'creditssource-source-work' => 'Deze pagina is afgeleid van de pagina $1 op $2, versie van $3 (UTC). Daar is de inhoud gelicenseerd onder de licentie CC BY-SA 3.0. Meer details en de volledige lijst van bijdragers kunnen geraadpleegd worden op de bijbehorende $5. Bijdragers van Wikitravel worden aangegeven met het voorvoegsel $4.',
 	'creditssource-historypage' => 'geschiedenispagina',
 	'creditssource-creditpage' => 'Geeft naamsvermeldingen voor bronwerken.',
+);
+
+/** Romanian (română)
+ * @author Minisarm
+ */
+$messages['ro'] = array(
+	'creditssource-historypage' => 'pagina istoricului',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'creditssource-historypage' => 'ඉතිහාස පිටුව',
 );
 
 /** Vietnamese (Tiếng Việt)
