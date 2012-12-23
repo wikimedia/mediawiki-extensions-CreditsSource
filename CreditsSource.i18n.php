@@ -23,6 +23,13 @@ $messages['qqq'] = array(
 	'creditssource-creditpage' => 'Description to be displayed on the credits action page.',
 );
 
+/** Bengali (বাংলা)
+ * @author Bellayet
+ */
+$messages['bn'] = array(
+	'creditssource-historypage' => 'ইতিহাস পাতা',
+);
+
 /** Breton (brezhoneg)
  * @author Y-M D
  */
@@ -63,6 +70,13 @@ $messages['diq'] = array(
  */
 $messages['el'] = array(
 	'creditssource-historypage' => 'ιστορικό σελίδας',
+);
+
+/** Esperanto (Esperanto)
+ * @author Yekrats
+ */
+$messages['eo'] = array(
+	'creditssource-historypage' => 'historio-paĝo',
 );
 
 /** Spanish (español)
@@ -128,6 +142,16 @@ $messages['hsb'] = array(
 	'creditssource-historypage' => 'wersijowa historija',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Farras
+ */
+$messages['id'] = array(
+	'creditssource-desc' => 'Menampilkan penghargaan karya sumber di kaki halaman',
+	'creditssource-source-work' => 'Artikel ini berasal dari artikel $1 pada $2 dalam revisi $3 (UTC). Di sana, artikel ini diterbitkan di bawah lisensi CC-by-sa 3.0. Rincian lebih lanjut dan daftar lengkap kontributor dapat ditemukan di $5. (Kontributor Wikitravel ditandai dengan awalan $4).',
+	'creditssource-historypage' => 'laman riwayat',
+	'creditssource-creditpage' => 'Memberikan penghargaan untuk karya sumber.',
+);
+
 /** Italian (italiano)
  * @author Beta16
  */
@@ -163,6 +187,13 @@ $messages['ko'] = array(
 $messages['lb'] = array(
 	'creditssource-historypage' => 'Versioune vun der Säit',
 	'creditssource-creditpage' => "Weist d'Quelle fir se z'honoréieren.",
+);
+
+/** Lithuanian (lietuvių)
+ * @author Eitvys200
+ */
+$messages['lt'] = array(
+	'creditssource-historypage' => 'istorijos puslapis',
 );
 
 /** Macedonian (македонски)
@@ -208,6 +239,13 @@ $messages['ro'] = array(
  */
 $messages['si'] = array(
 	'creditssource-historypage' => 'ඉතිහාස පිටුව',
+);
+
+/** Swedish (svenska)
+ * @author WikiPhoenix
+ */
+$messages['sv'] = array(
+	'creditssource-historypage' => 'historiksida',
 );
 
 /** Vietnamese (Tiếng Việt)
