@@ -227,6 +227,17 @@ $messages['nl'] = array(
 	'creditssource-creditpage' => 'Geeft naamsvermeldingen voor bronwerken.',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'creditssource-desc' => "Mosta ij crédit ëd l'euvra sorziss al pé dla pagina",
+	'creditssource-source-work' => "Sta vos a l'é derivà da la vos $1 dzora $2 ant soa revision da $3 (UTC). Là, a l'é publicà sota la livensa CC-by-sa 3.0. Pi 'd detaj e la lista completa dij contribudor a peul esse trovà dzora l'associà $5. 
+(Ij contribudor ëd Wikitravel a son marcà dal prefiss $4).",
+	'creditssource-historypage' => 'pagina dë stòria',
+	'creditssource-creditpage' => "A dà ij crédit Për j'euvre sorziss.",
+);
+
 /** Romanian (română)
  * @author Minisarm
  */
@@ -246,6 +257,13 @@ $messages['si'] = array(
  */
 $messages['sv'] = array(
 	'creditssource-historypage' => 'historiksida',
+);
+
+/** Ukrainian (українська)
+ * @author Ата
+ */
+$messages['uk'] = array(
+	'creditssource-historypage' => 'сторінка історії',
 );
 
 /** Vietnamese (Tiếng Việt)
