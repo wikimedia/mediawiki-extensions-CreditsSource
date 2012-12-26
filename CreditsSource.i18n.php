@@ -245,6 +245,16 @@ $messages['ro'] = array(
 	'creditssource-historypage' => 'pagina istoricului',
 );
 
+/** Russian (русский)
+ * @author Ole Yves
+ */
+$messages['ru'] = array(
+	'creditssource-desc' => 'Отображает авторство источника работы в нижней части страницы',
+	'creditssource-source-work' => 'Эта страница основывается на странице $1 с $2 в версии по состоянию на $3 (UTC). Там она опубликована под лицензией CC-BY-SA 3.0. Более подробную информацию и полный список участников, вносивших вклад, можно найти на связанной $5 (авторы Wikitravel обозначены префиксом $4).',
+	'creditssource-historypage' => 'странице истории',
+	'creditssource-creditpage' => 'Предоставляет отсылку к источнику работы.',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
