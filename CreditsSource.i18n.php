@@ -238,6 +238,13 @@ $messages['pms'] = array(
 	'creditssource-creditpage' => "A dà ij crédit Për j'euvre sorziss.",
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'creditssource-historypage' => 'مخ پېښليک',
+);
+
 /** Romanian (română)
  * @author Minisarm
  */
