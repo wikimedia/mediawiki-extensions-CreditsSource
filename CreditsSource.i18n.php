@@ -267,6 +267,7 @@ $messages['ru'] = array(
  */
 $messages['si'] = array(
 	'creditssource-historypage' => 'ඉතිහාස පිටුව',
+	'creditssource-creditpage' => 'ප්‍රභවකර්මාන්ත සඳහා කීර්තිය ලබා දෙන්න.',
 );
 
 /** Swedish (svenska)
