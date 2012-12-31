@@ -135,6 +135,13 @@ $messages['he'] = array(
 	'creditssource-creditpage' => 'מתן קרדיטים ליצירות המקוריות',
 );
 
+/** Hindi (हिन्दी)
+ * @author Ansumang
+ */
+$messages['hi'] = array(
+	'creditssource-historypage' => 'इतिहास पृष्ठ',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
@@ -227,6 +234,13 @@ $messages['nl'] = array(
 	'creditssource-creditpage' => 'Geeft naamsvermeldingen voor bronwerken.',
 );
 
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Ansumang
+ */
+$messages['or'] = array(
+	'creditssource-historypage' => 'ଇତିହାସ ପୃଷ୍ଠା',
+);
+
 /** Piedmontese (Piemontèis)
  * @author Dragonòt
  */
@@ -268,6 +282,13 @@ $messages['ru'] = array(
 $messages['si'] = array(
 	'creditssource-historypage' => 'ඉතිහාස පිටුව',
 	'creditssource-creditpage' => 'ප්‍රභවකර්මාන්ත සඳහා කීර්තිය ලබා දෙන්න.',
+);
+
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Rancher
+ */
+$messages['sr-ec'] = array(
+	'creditssource-historypage' => 'историја',
 );
 
 /** Swedish (svenska)
