@@ -242,14 +242,15 @@ $messages['or'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'creditssource-desc' => "Mosta ij crédit ëd l'euvra sorziss al pé dla pagina",
-	'creditssource-source-work' => "Sta vos a l'é derivà da la vos $1 dzora $2 ant soa revision da $3 (UTC). Là, a l'é publicà sota la livensa CC-by-sa 3.0. Pi 'd detaj e la lista completa dij contribudor a peul esse trovà dzora l'associà $5. 
-(Ij contribudor ëd Wikitravel a son marcà dal prefiss $4).",
-	'creditssource-historypage' => 'pagina dë stòria',
-	'creditssource-creditpage' => "A dà ij crédit Për j'euvre sorziss.",
+	'creditssource-desc' => "Smon-e j'arconossiment ëd travaj ëd la sordiss al pé dla pàgina",
+	'creditssource-source-work' => "St'artìcol a l'é derivà da l'artìcol $1 dzora $2 ant soa revision da $3 (UTC). Là, a l'é publicà sota la licensa CC-by-sa 3.0. Pi 'd detaj e la lista completa dij contributor a peulo esse trovà dzora al $5 associà. 
+(Ij contributor ëd Wikitravel a son marcà dal prefiss $4).",
+	'creditssource-historypage' => 'pàgina dla stòria',
+	'creditssource-creditpage' => "A dà j'arconossiment për j'euvre sorgiss.",
 );
 
 /** Pashto (پښتو)
