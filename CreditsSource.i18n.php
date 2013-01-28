@@ -23,6 +23,16 @@ $messages['qqq'] = array(
 	'creditssource-creditpage' => 'Description to be displayed on the credits action page.',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'creditssource-desc' => 'Ver los créditos del trabayu fonte nel pie de páxina',
+	'creditssource-source-work' => 'Esti artículu ye un deriváu del artículu $1 de $2 na so revisión de $3 (UTC). Ellí, ta espublizáu baxo la llicencia CC-by-sa 3.0. Puen alcontrase más detalles y la llista completa de collaboradores nel $5 asociáu. (Los collaboradores de Wikitravel tan marcaos col prefixu $4).',
+	'creditssource-historypage' => 'páxina del historial',
+	'creditssource-creditpage' => 'Da créditos a les fontes del trabayu.',
+);
+
 /** Bengali (বাংলা)
  * @author Bellayet
  */
