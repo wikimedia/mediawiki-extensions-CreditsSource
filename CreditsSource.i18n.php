@@ -277,6 +277,13 @@ $messages['ro'] = array(
 	'creditssource-historypage' => 'pagina istoricului',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'creditssource-historypage' => "cunde d'a pàgene",
+);
+
 /** Russian (русский)
  * @author Ole Yves
  */
