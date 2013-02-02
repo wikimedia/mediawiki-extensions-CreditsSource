@@ -188,6 +188,13 @@ $messages['ja'] = array(
 	'creditssource-creditpage' => '元の記事のクレジットを表示します。',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'creditssource-historypage' => 'ისტორიის გვერდი',
+);
+
 /** Korean (한국어)
  * @author 아라
  */
