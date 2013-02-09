@@ -339,3 +339,10 @@ $messages['vi'] = array(
 	'creditssource-historypage' => 'trang lịch sử',
 	'creditssource-creditpage' => 'Ghi công các tác phẩm gốc.',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Hydra
+ */
+$messages['zh-hans'] = array(
+	'creditssource-historypage' => '历史页面',
+);
