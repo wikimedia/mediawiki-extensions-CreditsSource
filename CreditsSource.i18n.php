@@ -288,7 +288,10 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'creditssource-desc' => "Face vedè le credite de le fatìe origgenale jndr'à vanne de sotte d'a pàgene",
+	'creditssource-source-work' => "Sta vôsce jè derivate da 'a vôsce $1 sus a $2 jndr'à revisiona soje da le $3 (UTC). Addà, ste pubblecate sotte 'a licenze CC-by-sa 3.0. Pe cchiù 'mbormaziune e l'elenghe comblete de le condrebbutore ponne essere cercate sus a pàgene assocaite $5. (Le condrebbutore de Uicchitravel so marcate cu 'u prefisse $4).",
 	'creditssource-historypage' => "cunde d'a pàgene",
+	'creditssource-creditpage' => 'Dèje credite pe le fatìe origgenale.',
 );
 
 /** Russian (русский)
