@@ -63,7 +63,7 @@ $messages['cs'] = array(
  */
 $messages['de'] = array(
 	'creditssource-desc' => 'Ermöglicht die Namensnennungsanzeige von Quellwerken in der Fußzeile',
-	'creditssource-source-work' => 'Dieser Artikel ist abgeleitet vom Artikel $1 auf $2 in seiner Version von $3 (UTC). Dort wurde er unter der CC-BY-SA-3.0-Lizenz veröffentlicht. Mehr Informationen und eine volle Liste der Autoren befindet sich in der dazugehörigen $5. Wikitravel-Autoren werden durch das Präfix $4 markiert.',
+	'creditssource-source-work' => 'Diese Seite ist abgeleitet von der Seite $1 auf $2 in der Version von $3 (UTC). Dort wurde sie unter der CC-BY-SA-3.0-Lizenz veröffentlicht. Mehr Informationen und eine volle Liste der Autoren befindet sich in der dazugehörigen $5. Wikitravel-Autoren werden durch das Präfix $4 markiert.',
 	'creditssource-historypage' => 'Versionsgeschichte',
 	'creditssource-creditpage' => 'Angaben zu den Quellen',
 );
@@ -120,7 +120,7 @@ $messages['fi'] = array(
  */
 $messages['fr'] = array(
 	'creditssource-desc' => 'Afficher les crédits de travail de la source dans le pied de la page',
-	'creditssource-source-work' => "Cet article est tiré de l'article $1 sur $2 dans sa révision du $3 (UTC). Ici, il est publié sous la licence CC-by-sa 3.0. Vous pouvez trouver plus de détails et la liste complète des contributeurs sur le $5 associé (les contributeurs Wikitravel sont repérés par le préfixe $4).",
+	'creditssource-source-work' => 'Cette page est tirée de la page $1 sur $2 dans sa révision du $3 (UTC). Ici, elle est publiée sous la licence CC BY-SA 3.0. Vous pouvez trouver plus de détails et la liste complète des contributeurs sur le $5 associé. Les contributeurs Wikitravel sont repérés par le préfixe $4.',
 	'creditssource-historypage' => "page de l'histoire",
 	'creditssource-creditpage' => 'Donner un crédit pour les œuvres source.',
 );
@@ -225,7 +225,7 @@ $messages['lt'] = array(
  */
 $messages['mk'] = array(
 	'creditssource-desc' => 'Приказ на припис во поднојжето на страницата',
-	'creditssource-source-work' => 'Статијава е изведена од статијата $1 на $2 во нејзината ревизија од $3 (UTC). Таму е објавена под лиценцата CC-by-sa 3.0. Повеќе информации и полн список на учесниците ќе најдете на $5. (Учесниците на Wikitravel се означени со претставката $4).',
+	'creditssource-source-work' => 'Страницава е изведена од страницата $1 на $2 во нејзината ревизија од $3 (UTC). Таму е објавена под лиценцата CC BY-SA 3.0. Повеќе информации и полн список на учесниците ќе најдете на $5. Учесниците на Википатување се означени со претставката $4.',
 	'creditssource-historypage' => 'историја',
 	'creditssource-creditpage' => 'Припишува користени изворни дела.',
 );
