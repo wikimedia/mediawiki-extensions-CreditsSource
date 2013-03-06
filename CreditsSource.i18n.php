@@ -20,6 +20,12 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'creditssource-desc' => '{{desc|name=Credits Source|url=http://www.mediawiki.org/wiki/Extension:CreditsSource}}',
+	'creditssource-source-work' => 'Parameters:
+* $1 - external link to the source. its link text is page title.
+* $2 - external link to the site. its link text is site name.
+* $3 - time and date (localized)
+* $4 - short name of the site Wikitravel
+* $5 - link to History page. its text is {{msg-mw|Creditssource-historypage}}.',
 	'creditssource-creditpage' => 'Description to be displayed on the credits action page.',
 );
 
@@ -130,7 +136,7 @@ $messages['fr'] = array(
  */
 $messages['gl'] = array(
 	'creditssource-desc' => 'Mostra os créditos no pé de páxina',
-	'creditssource-source-work' => 'Este artigo deriva do artigo "$1" de $2 na súa revisión do $3 (UTC). Alí, está publicado baixo a licenza CC-by-sa 3.0. Pode atopar máis detalles e a lista completa de colaboradores na $5 asociada. (Os colaboradores do Wikitravel están marcados co prefixo "$4").',
+	'creditssource-source-work' => 'Esta páxina deriva da páxina "$1" de $2 na súa revisión do $3 (UTC). Alí, está publicado baixo a licenza CC BY-SA 3.0. Pode atopar máis detalles e a lista completa de colaboradores na $5 asociada. Os colaboradores do Wikitravel están marcados co prefixo "$4".',
 	'creditssource-historypage' => 'páxina de historial',
 	'creditssource-creditpage' => 'Proporciona os créditos.',
 );
@@ -174,7 +180,7 @@ $messages['id'] = array(
  */
 $messages['it'] = array(
 	'creditssource-desc' => "Mostra i crediti per l'opera nel piè di pagina",
-	'creditssource-source-work' => 'Questa voce deriva dalla voce $1 su $2 nella versione del $3 (UTC). Là, è stata pubblicata con licenza CC-BY SA 3.0. Maggiori dettagli e la lista completa dei contributori possono essere trovati nella $5 associata. (I contributori di Wikitravel sono contrassegnati dal prefisso $4).',
+	'creditssource-source-work' => 'Questa pagina deriva dalla pagina $1 su $2 nella versione del $3 (UTC). Là, è stata pubblicata con licenza CC BY-SA 3.0. Maggiori dettagli e la lista completa dei contributori possono essere trovati nella $5 associata. I contributori di Wikitravel sono contrassegnati dal prefisso $4.',
 	'creditssource-historypage' => 'cronologia pagina',
 	'creditssource-creditpage' => 'Fornisce i crediti per le opere di origine.',
 );
@@ -184,6 +190,7 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'creditssource-desc' => 'ページのフッターに元の記事のクレジットを表示する',
+	'creditssource-source-work' => 'このページは $2 のページ $1 の $3 (UTC) の版から派生したものです。そこでは、クリエイティブ・コモンズ 表示-継承 3.0 ライセンスの下で公開されていました。詳細と投稿者の完全な一覧は対応する$5にあります。ウィキトラベルの投稿者は先頭に $4 が付いています。',
 	'creditssource-historypage' => '履歴ページ',
 	'creditssource-creditpage' => '元の記事のクレジットを表示します。',
 );
