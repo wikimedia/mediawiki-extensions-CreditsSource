@@ -58,7 +58,7 @@ $messages['br'] = array(
  */
 $messages['cs'] = array(
 	'creditssource-desc' => 'Zobrazuje autorství zdrojového díla v patičce stránky',
-	'creditssource-source-work' => 'Tento článek je založen na článku $1 na {{grammar:6sg|$2}} ve verzi z $3 (UTC). Tam byl zveřejněn pod licencí CC-by-sa 3.0. Další podrobnosti a úplný seznam přispěvatelů můžete nalézt na přidružené $5. (Přispěvatelé z Wikitravel jsou označeni prefixem $4.)',
+	'creditssource-source-work' => 'Tato stránka je založena na stránce $1 na {{grammar:6sg|$2}} ve verzi z $3 (UTC). Tam byla zveřejněn pod licencí CC-BY-SA 3.0. Další podrobnosti a úplný seznam přispěvatelů můžete nalézt na přidružené $5. Přispěvatelé z Wikitravel jsou označeni prefixem $4.',
 	'creditssource-historypage' => 'stránce historie',
 	'creditssource-creditpage' => 'Uvádí autorství zdrojových děl.',
 );
