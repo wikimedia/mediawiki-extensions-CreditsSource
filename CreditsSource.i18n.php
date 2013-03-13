@@ -242,7 +242,7 @@ $messages['mk'] = array(
  */
 $messages['ms'] = array(
 	'creditssource-desc' => 'Memaparkan senarai penghargaan kerja sumber pada kaki halaman',
-	'creditssource-source-work' => 'Rencana ini dipetik dari rencana $1 di $2 dalam semakannya pada $3 (UTC). Di situ, ia diterbitkan di bawah lesen CC-BY-SA 3.0. Keterangan lanjut dan senarai penuh para penyumbang boleh didapati di $5 yang berkenaan. (Penyumbang Wikitravel ditandai dengan awalan $4).',
+	'creditssource-source-work' => 'Halaman ini diterbitkan dari halaman $1 di $2 dalam semakan $3 (UTC). Di situ, ia diterbitkan di bawah lesen CC BY-SA 3.0. Keterangan lanjut serta senarai penuh penyumbang boleh didapati di $5 yang berkenaan. Penyumbang Wikitravel bertandakan awalan $4.',
 	'creditssource-historypage' => 'halaman sejarah',
 	'creditssource-creditpage' => 'Memberikan penghargaan untuk kerja sumber.',
 );
