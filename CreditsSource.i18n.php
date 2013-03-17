@@ -81,6 +81,16 @@ $messages['diq'] = array(
 	'creditssource-historypage' => 'verêna perer',
 );
 
+/** Lower Sorbian (dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'creditssource-desc' => 'Pódawa awtorstwo za žrědłowe źěła w nogowej smužce boka',
+	'creditssource-source-work' => 'Toś ten bok jo wót boka $1 na $2 w jogo wersiji wót $3 (UTC) wótwóźony. Tam jo se pód licencu CC BY-SA 3.0 wózjawił. Dalšn drobnostki a dopołna lisćina awtorow su na pśisłušnem boku $5. Awtory projekta Wikitravel markěruju se pśez prefiks $4.',
+	'creditssource-historypage' => 'wersijowa historija',
+	'creditssource-creditpage' => 'Pódaśa za awtorstwo žrědłowych źěłow.',
+);
+
 /** Greek (Ελληνικά)
  * @author ZaDiak
  */
@@ -162,7 +172,10 @@ $messages['hi'] = array(
  * @author Michawiki
  */
 $messages['hsb'] = array(
+	'creditssource-desc' => 'Podawa awtorstwo za žórłowe dźěła w nohowej lince strony',
+	'creditssource-source-work' => 'Tuta strona je wot strony $1 na $2 w jeje wersiji wot $3 (UTC) wotwodźena. Tam je so pod licencu CC BY-SA 3.0 wozjewiła. Dalše podrobnosće a dospołna lisćina awtorow su na přisłušnej stronje $5. Awtorojo projekta Wikitravel so přez prefiks $4 markěruja.',
 	'creditssource-historypage' => 'wersijowa historija',
+	'creditssource-creditpage' => 'Podaća za awtorstwo žórłowych dźěłow.',
 );
 
 /** Indonesian (Bahasa Indonesia)
