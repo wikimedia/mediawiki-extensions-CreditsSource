@@ -26,6 +26,9 @@ $messages['qqq'] = array(
 * $3 - time and date (localized)
 * $4 - short name of the site Wikitravel
 * $5 - link to History page. its text is {{msg-mw|Creditssource-historypage}}.',
+	'creditssource-historypage' => 'Used as link text.
+
+The link points to History page of the specified page.',
 	'creditssource-creditpage' => 'Description to be displayed on the credits action page.',
 );
 
