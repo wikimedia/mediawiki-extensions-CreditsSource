@@ -16,6 +16,7 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Purodha
  * @author Shirayuki
  */
 $messages['qqq'] = array(
@@ -26,7 +27,7 @@ $messages['qqq'] = array(
 * $3 - time and date (localized)
 * $4 - short name of the site Wikitravel
 * $5 - link to History page. its text is {{msg-mw|Creditssource-historypage}}.',
-	'creditssource-historypage' => 'Used as link text.
+	'creditssource-historypage' => 'Used as link anchor text.
 
 The link points to History page of the specified page.',
 	'creditssource-creditpage' => 'Description to be displayed on the credits action page.',
@@ -223,9 +224,17 @@ $messages['ka'] = array(
  */
 $messages['ko'] = array(
 	'creditssource-desc' => '문서 바닥글에 원본 작업 제작진 보이기',
-	'creditssource-source-work' => '이 문서는 $3 (UTC)에 $1 문서의 $2 판에서 파생됩니다. 그래서 CC-by-sa 3.0 라이선스에 따라 게시합니다. 더 자세한 정보와 기여자의 전체 목록은 관련된 $5에서 찾을 수 있습니다. (Wikitravel 기여자는 $4 접두어로 보여집니다.)',
+	'creditssource-source-work' => '이 문서는 $3 (UTC)에 $1 문서의 $2 판에서 파생됩니다. 그래서 CC BY-SA 3.0 라이선스에 따라 게시합니다. 더 자세한 정보와 기여자의 전체 목록은 관련된 $5에서 찾을 수 있습니다. Wikitravel 기여자는 $4 접두어로 보여집니다.',
 	'creditssource-historypage' => '역사 문서',
 	'creditssource-creditpage' => '원본 작업에 대한 제작진을 제공합니다.',
+);
+
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'creditssource-source-work' => 'Heh di Sigg es uß dä Version von $3 (UTC) vun dä Sigg $1 {{GRAMMAR:em|$2|<a href="$2">|</a>}} zerääsch jemaat woode. Di ojinaal Sigg wood onger dä Lėzänz CC-BY-SA-3.0 öffentlesch jemaat. Mieh doh drövver un en kumplätte Leß met de Schriiver fengk mer op dä iere $5. Dem <i lang="en">Wikitrvel</i> sing Metschriiver wääde met däm Vorsaz $4 makeet.', # Fuzzy
+	'creditssource-historypage' => 'Leß met de Versione',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
