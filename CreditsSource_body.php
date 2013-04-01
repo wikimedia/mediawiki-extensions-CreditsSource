@@ -62,7 +62,9 @@ class CreditsSourceAction extends FormlessAction {
 				$siteLink,
 				$wgLang->timeanddate( $source->mTs ),
 				$source->mSiteShortName,
-				$historyLink
+				$historyLink,
+				$wgLang->date( $source->mTs ),
+				$wgLang->time( $source->mTs )
 			)->text();
 		}
 

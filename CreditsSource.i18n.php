@@ -10,7 +10,7 @@ $messages = array();
 
 $messages['en'] = array(
 	'creditssource-desc'            => 'Display source work credits in the page footer',
-	'creditssource-source-work'     => 'This page is derived from the page $1 on $2 in its revision from $3 (UTC). There, it is published under the CC BY-SA 3.0 license. More details and the full list of contributors can be found on the associated $5. Wikitravel contributors are marked by the prefix $4.',
+	'creditssource-source-work'     => 'This page is derived from the page $1 on $2 in its revision from $6 at $7 (UTC). There, it is published under the CC BY-SA 3.0 license. More details and the full list of contributors can be found on the associated $5. Wikitravel contributors are marked by the prefix $4.',
 	'creditssource-historypage'     => 'history page',
 	'creditssource-creditpage'      => 'Gives credits for sourceworks.',
 );
@@ -22,11 +22,13 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'creditssource-desc' => '{{desc|name=Credits Source|url=http://www.mediawiki.org/wiki/Extension:CreditsSource}}',
 	'creditssource-source-work' => 'Parameters:
-* $1 - external link to the source. its link text is page title.
-* $2 - external link to the site. its link text is site name.
-* $3 - time and date (localized)
-* $4 - short name of the site Wikitravel
-* $5 - link to History page. its text is {{msg-mw|Creditssource-historypage}}.',
+* $1 is an external link to the source. its link text is page title.
+* $2 is an external link to the site. its link text is site name.
+* $3 is unused.
+* $4 is a short name of the site Wikitravel.
+* $5 is a link to the history page. Its text is {{msg-mw|Creditssource-historypage}}.
+* $6 is a date.
+* $7 is a time.',
 	'creditssource-historypage' => 'Used as link anchor text.
 
 The link points to History page of the specified page.',
