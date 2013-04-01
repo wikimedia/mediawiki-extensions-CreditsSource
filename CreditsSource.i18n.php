@@ -40,7 +40,7 @@ The link points to History page of the specified page.',
  */
 $messages['ast'] = array(
 	'creditssource-desc' => 'Ver los créditos del trabayu fonte nel pie de páxina',
-	'creditssource-source-work' => 'Esta páxina ye una derivada de la páxina $1 de $2 na so revisión del $3 (UTC). Ellí, ta espublizada baxo la llicencia CC BY-SA 3.0. Puen alcontrase más detalles y la llista completa de collaboradores na $5 asociada. Los collaboradores de Uiquiviaxes tan marcaos col prefixu $4.',
+	'creditssource-source-work' => 'Esta páxina ye una derivada de la páxina $1 de $2 na so revisión del $3 (UTC). Ellí, ta espublizada baxo la llicencia CC BY-SA 3.0. Puen alcontrase más detalles y la llista completa de collaboradores na $5 asociada. Los collaboradores de Uiquiviaxes tan marcaos col prefixu $4.', # Fuzzy
 	'creditssource-historypage' => 'páxina del historial',
 	'creditssource-creditpage' => 'Da créditos a les fontes del trabayu.',
 );
@@ -75,7 +75,7 @@ $messages['cs'] = array(
  */
 $messages['de'] = array(
 	'creditssource-desc' => 'Ermöglicht die Namensnennungsanzeige von Quellwerken in der Fußzeile',
-	'creditssource-source-work' => 'Diese Seite ist abgeleitet von der Seite $1 auf $2 in der Version von $3 (UTC). Dort wurde sie unter der CC-BY-SA-3.0-Lizenz veröffentlicht. Mehr Informationen und eine volle Liste der Autoren befindet sich in der dazugehörigen $5. Wikitravel-Autoren werden durch das Präfix $4 markiert.',
+	'creditssource-source-work' => 'Diese Seite ist abgeleitet von der Seite $1 auf $2 in der Version vom $6 um $7 (UTC). Dort wurde sie unter der CC-BY-SA-3.0-Lizenz veröffentlicht. Mehr Informationen und eine volle Liste der Autoren befindet sich in der dazugehörigen $5. Wikitravel-Autoren werden durch das Präfix „$4“ markiert.',
 	'creditssource-historypage' => 'Versionsgeschichte',
 	'creditssource-creditpage' => 'Angaben zu den Quellen',
 );
@@ -226,7 +226,7 @@ $messages['ka'] = array(
  */
 $messages['ko'] = array(
 	'creditssource-desc' => '문서 바닥글에 원본 작업 제작진 보이기',
-	'creditssource-source-work' => '이 문서는 $3 (UTC)에 $1 문서의 $2 판에서 파생됩니다. 그래서 CC BY-SA 3.0 라이선스에 따라 게시합니다. 더 자세한 정보와 기여자의 전체 목록은 관련된 $5에서 찾을 수 있습니다. Wikitravel 기여자는 $4 접두어로 보여집니다.',
+	'creditssource-source-work' => '이 문서는 $3 (UTC)에 $1 문서의 $2 판에서 파생됩니다. 그래서 CC BY-SA 3.0 라이선스에 따라 게시합니다. 더 자세한 정보와 기여자의 전체 목록은 관련된 $5에서 찾을 수 있습니다. Wikitravel 기여자는 $4 접두어로 보여집니다.', # Fuzzy
 	'creditssource-historypage' => '역사 문서',
 	'creditssource-creditpage' => '원본 작업에 대한 제작진을 제공합니다.',
 );
@@ -372,7 +372,7 @@ $messages['uk'] = array(
  */
 $messages['vi'] = array(
 	'creditssource-desc' => 'Hiển thị lời ghi công tác phẩm gốc ở cuối trang',
-	'creditssource-source-work' => 'Trang này bắt nguồn từ trang $1 tại $2, phiên bản vào $3 (UTC). Bản gốc ở đấy được phát hành theo giấy phép CC BY-SA 3.0. Xem thêm chi tiết và danh sách người đóng góp đầy đủ tại $5. Những người đóng góp ở Wikitravel có tiền tố $4.',
+	'creditssource-source-work' => 'Trang này bắt nguồn từ trang $1 tại $2, phiên bản vào $3 (UTC). Bản gốc ở đấy được phát hành theo giấy phép CC BY-SA 3.0. Xem thêm chi tiết và danh sách người đóng góp đầy đủ tại $5. Những người đóng góp ở Wikitravel có tiền tố $4.', # Fuzzy
 	'creditssource-historypage' => 'trang lịch sử',
 	'creditssource-creditpage' => 'Ghi công các tác phẩm gốc.',
 );
