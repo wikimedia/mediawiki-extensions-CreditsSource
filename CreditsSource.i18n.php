@@ -22,13 +22,13 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'creditssource-desc' => '{{desc|name=Credits Source|url=http://www.mediawiki.org/wiki/Extension:CreditsSource}}',
 	'creditssource-source-work' => 'Parameters:
-* $1 is an external link to the source. its link text is page title.
-* $2 is an external link to the site. its link text is site name.
-* $3 is unused.
-* $4 is a short name of the site Wikitravel.
-* $5 is a link to the history page. Its text is {{msg-mw|Creditssource-historypage}}.
-* $6 is a date.
-* $7 is a time.',
+* $1 - an external link to the source. Its link text is page title.
+* $2 - an external link to the site. Its link text is site name.
+* $3 - unused
+* $4 - a short name of the site Wikitravel
+* $5 - a link to the history page. Its link text is {{msg-mw|Creditssource-historypage}}.
+* $6 - a date
+* $7 - a time',
 	'creditssource-historypage' => 'Used as link anchor text.
 
 The link points to History page of the specified page.',
@@ -139,10 +139,11 @@ $messages['fi'] = array(
 /** French (français)
  * @author Gomoko
  * @author Hello71
+ * @author Metroitendo
  */
 $messages['fr'] = array(
 	'creditssource-desc' => 'Afficher les crédits de travail de la source dans le pied de la page',
-	'creditssource-source-work' => 'Cette page est tirée de la page $1 sur $2 dans sa révision du $3 (UTC). Ici, elle est publiée sous la licence CC BY-SA 3.0. Vous pouvez trouver plus de détails et la liste complète des contributeurs sur le $5 associé. Les contributeurs Wikitravel sont repérés par le préfixe $4.',
+	'creditssource-source-work' => 'Cette page est tirée de la page $1 sur $2 dans sa révision du $6 à $7 (UTC). Ici, elle est publiée sous la licence CC BY-SA 3.0. Vous pouvez trouver plus de détails et la liste complète des contributeurs sur le $5 associé. Les contributeurs Wikitravel sont repérés par le préfixe $4.',
 	'creditssource-historypage' => "page de l'histoire",
 	'creditssource-creditpage' => 'Donner un crédit pour les œuvres source.',
 );
@@ -209,7 +210,7 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'creditssource-desc' => 'ページのフッターに元の記事のクレジットを表示する',
-	'creditssource-source-work' => 'このページは $2 のページ $1 の $3 (UTC) の版から派生したものです。そこでは、クリエイティブ・コモンズ 表示-継承 3.0 ライセンスの下で公開されていました。詳細と投稿者の完全な一覧は対応する$5にあります。ウィキトラベルの投稿者は先頭に $4 が付いています。',
+	'creditssource-source-work' => 'このページは $2 のページ $1 の $6 $7 (UTC) の版から派生したものです。そこでは、クリエイティブ・コモンズ 表示-継承 3.0 ライセンスの下で公開されていました。詳細と投稿者の完全な一覧は対応する$5にあります。ウィキトラベルの投稿者は先頭に $4 が付いています。',
 	'creditssource-historypage' => '履歴ページ',
 	'creditssource-creditpage' => '元の記事のクレジットを表示します。',
 );
@@ -259,7 +260,7 @@ $messages['lt'] = array(
  */
 $messages['mk'] = array(
 	'creditssource-desc' => 'Приказ на припис во поднојжето на страницата',
-	'creditssource-source-work' => 'Страницава е изведена од страницата $1 на $2 во нејзината ревизија од $3 (UTC). Таму е објавена под лиценцата CC BY-SA 3.0. Повеќе информации и полн список на учесниците ќе најдете на $5. Учесниците на Википатување се означени со претставката $4.',
+	'creditssource-source-work' => 'Страницава е изведена од страницата $1 на $2 од нејзината ревизија од $6 во $7 (UTC). Таму е објавена под лиценцата CC BY-SA 3.0. Повеќе информации и полн список на учесниците ќе најдете на нејзината $5. Учесниците на Википатување се означени со претставката $4.',
 	'creditssource-historypage' => 'историја',
 	'creditssource-creditpage' => 'Припишува користени изворни дела.',
 );
