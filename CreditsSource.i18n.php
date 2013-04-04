@@ -15,7 +15,10 @@ $messages['en'] = array(
 	'creditssource-creditpage'      => 'Gives credits for sourceworks.',
 );
 
-/** Message documentation (Message documentation)
+/** Message documentation (This is the name of the message documentation language code (qqq). Follow the rules of your languages and use small first letter if it doesn't capitalize language names always.
+
+It might be easier to translate it as "translation guidelines" or "translation help".
+{{Identical|Message documentation}})
  * @author Purodha
  * @author Shirayuki
  */
@@ -64,7 +67,7 @@ $messages['br'] = array(
  */
 $messages['cs'] = array(
 	'creditssource-desc' => 'Zobrazuje autorství zdrojového díla v patičce stránky',
-	'creditssource-source-work' => 'Tato stránka je založena na stránce $1 na {{grammar:6sg|$2}} ve verzi z $3 (UTC). Tam byla zveřejněn pod licencí CC-BY-SA 3.0. Další podrobnosti a úplný seznam přispěvatelů můžete nalézt na přidružené $5. Přispěvatelé z Wikitravel jsou označeni prefixem $4.',
+	'creditssource-source-work' => 'Tato stránka je založena na stránce $1 na {{grammar:6sg|$2}} ve verzi z $7, $6 (UTC). Tam byla zveřejněna pod licencí CC-BY-SA 3.0. Další podrobnosti a úplný seznam přispěvatelů můžete nalézt na přidružené $5. Přispěvatelé z Wikitravel jsou označeni prefixem $4.',
 	'creditssource-historypage' => 'stránce historie',
 	'creditssource-creditpage' => 'Uvádí autorství zdrojových děl.',
 );
@@ -153,7 +156,7 @@ $messages['fr'] = array(
  */
 $messages['gl'] = array(
 	'creditssource-desc' => 'Mostra os créditos no pé de páxina',
-	'creditssource-source-work' => 'Esta páxina deriva da páxina "$1" de $2 na súa revisión do $3 (UTC). Alí, está publicado baixo a licenza CC BY-SA 3.0. Pode atopar máis detalles e a lista completa de colaboradores na $5 asociada. Os colaboradores do Wikitravel están marcados co prefixo "$4".',
+	'creditssource-source-work' => 'Esta páxina deriva da páxina "$1" de $2 na súa revisión do $6 ás $7 (UTC). Alí, está publicada baixo a licenza CC BY-SA 3.0. Pode atopar máis detalles e a lista completa de colaboradores na $5 asociada. Os colaboradores do Wikitravel están marcados co prefixo "$4".',
 	'creditssource-historypage' => 'páxina de historial',
 	'creditssource-creditpage' => 'Proporciona os créditos.',
 );
@@ -200,7 +203,7 @@ $messages['id'] = array(
  */
 $messages['it'] = array(
 	'creditssource-desc' => "Mostra i crediti per l'opera nel piè di pagina",
-	'creditssource-source-work' => 'Questa pagina deriva dalla pagina $1 su $2 nella versione del $3 (UTC). Là, è stata pubblicata con licenza CC BY-SA 3.0. Maggiori dettagli e la lista completa dei contributori possono essere trovati nella $5 associata. I contributori di Wikitravel sono contrassegnati dal prefisso $4.',
+	'creditssource-source-work' => 'Questa pagina deriva dalla pagina $1 su $2 nella versione del $6 alle $7 (UTC). Là, è stata pubblicata con licenza CC BY-SA 3.0. Maggiori dettagli e la lista completa dei contributori possono essere trovati nella $5 associata. I contributori di Wikitravel sono contrassegnati dal prefisso $4.',
 	'creditssource-historypage' => 'cronologia pagina',
 	'creditssource-creditpage' => 'Fornisce i crediti per le opere di origine.',
 );
