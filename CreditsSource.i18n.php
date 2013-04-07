@@ -15,10 +15,7 @@ $messages['en'] = array(
 	'creditssource-creditpage'      => 'Gives credits for sourceworks.',
 );
 
-/** Message documentation (This is the name of the message documentation language code (qqq). Follow the rules of your languages and use small first letter if it doesn't capitalize language names always.
-
-It might be easier to translate it as "translation guidelines" or "translation help".
-{{Identical|Message documentation}})
+/** Message documentation (Message documentation)
  * @author Purodha
  * @author Shirayuki
  */
@@ -133,9 +130,11 @@ $messages['et'] = array(
 
 /** Finnish (suomi)
  * @author Nedergard
+ * @author Silvonen
  */
 $messages['fi'] = array(
 	'creditssource-desc' => 'Näyttää alkuperäisen teoksen tekijätiedot alatunnisteessa',
+	'creditssource-source-work' => 'Tämä sivu perustuu sivuston $2 sivun $1 versioon $6 kello $7 (UTC). Se on julkaistu siellä CC BY-SA 3.0 -lisenssillä. Lisätiedot ja täydellinen tekijäluettelo löytyvät sivulta $5. Wikitravel-tekijät on merkitty etuliitteellä $4.',
 	'creditssource-historypage' => 'Muokkaushistoria',
 );
 
