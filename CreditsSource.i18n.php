@@ -283,7 +283,7 @@ $messages['ms'] = array(
  */
 $messages['nl'] = array(
 	'creditssource-desc' => "Naamsvermeldingen voor het werk weergeven in de voettekst van pagina's",
-	'creditssource-source-work' => 'Deze pagina is afgeleid van de pagina $1 op $2, versie van $3 (UTC). Daar is de inhoud gelicenseerd onder de licentie CC BY-SA 3.0. Meer details en de volledige lijst van bijdragers kunnen geraadpleegd worden op de bijbehorende $5. Bijdragers van Wikitravel worden aangegeven met het voorvoegsel $4.',
+	'creditssource-source-work' => 'Deze pagina is afgeleid van de pagina $1 op $2, versie van $6 om $7 (UTC). Daar is de inhoud gelicenseerd onder de licentie CC BY-SA 3.0. Meer details en de volledige lijst van bijdragers kunnen geraadpleegd worden op de bijbehorende $5. Bijdragers van Wikitravel worden aangegeven met het voorvoegsel $4.',
 	'creditssource-historypage' => 'geschiedenispagina',
 	'creditssource-creditpage' => 'Geeft naamsvermeldingen voor bronwerken.',
 );
@@ -382,7 +382,9 @@ $messages['vi'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Hydra
+ * @author Kuailong
  */
 $messages['zh-hans'] = array(
+	'creditssource-source-work' => '本页面是由$2上$1页面于$6$7（UTC）的修订版本衍生而来的。该页面以知识共享 署名-相同方式共享 3.0协议发布。更多信息及完整的贡献者名单可以在$5查阅到。来自Wikitravel的贡献者会以$4前缀标记。',
 	'creditssource-historypage' => '历史页面',
 );
