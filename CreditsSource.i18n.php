@@ -165,7 +165,7 @@ $messages['gl'] = array(
  */
 $messages['he'] = array(
 	'creditssource-desc' => 'הצגת הקרדיטים על היצירה המקורית בתחתית הדף',
-	'creditssource-source-work' => 'הערך הזה נגזר מהערך $1 ב{{GRAMMAR:תחילית|$2}} בגרסה מ־$3 (זמן יקום מתואם). שם הוא פורסם לפי רישיון CC-by-sa 3.0. פרטים נוספים ורשימה מלאה של התורמים לערך אפשר למצור ב{{GRAMMAR:תחילית|$5}}. (תורמי ויקיטיול מסומנים בתחילית $4.)',
+	'creditssource-source-work' => 'הדף הזה נגזר מהדף $1 ב{{GRAMMAR:תחילית|$2}} בגרסה מ־$6 בשעה $7 (זמן יקום מתואם). שם הוא פורסם לפי רישיון CC-BY-SA 3.0. פרטים נוספים ורשימה מלאה של התורמים לערך אפשר למצור ב{{GRAMMAR:תחילית|$5}}. (תורמי ויקימסע מסומנים בתחילית $4.)',
 	'creditssource-historypage' => 'דף היסטוריה',
 	'creditssource-creditpage' => 'מתן קרדיטים ליצירות המקוריות',
 );
@@ -238,7 +238,7 @@ $messages['ko'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
-	'creditssource-source-work' => 'Heh di Sigg es uß dä Version von $3 (UTC) vun dä Sigg $1 {{GRAMMAR:em|$2|<a href="$2">|</a>}} zerääsch jemaat woode. Di ojinaal Sigg wood onger dä Lėzänz CC-BY-SA-3.0 öffentlesch jemaat. Mieh doh drövver un en kumplätte Leß met de Schriiver fengk mer op dä iere $5. Dem <i lang="en">Wikitrvel</i> sing Metschriiver wääde met däm Vorsaz $4 makeet.', # Fuzzy
+	'creditssource-source-work' => 'Heh di Sigg es uß dä Version vom $6 öm $7 Uhr (UTC) vun dä Sigg $1 {{GRAMMAR:em|$2|<a href="$2">|</a>}} zerääsch jemaat woode. Di ojinaal Sigg wood onger dä Lėzänz CC-BY-SA-3.0 öffentlesch jemaat. Mieh doh drövver un en kumplätte Leß met de Schriiver fengk mer op dä iere $5. Dem <i lang="en">Wikitrvel</i> sing Metschriiver wääde met enem dovör jesazte $4 makeet.', # Fuzzy
 	'creditssource-historypage' => 'Leß met de Versione',
 );
 
