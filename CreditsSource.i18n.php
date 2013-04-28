@@ -296,6 +296,13 @@ $messages['or'] = array(
 	'creditssource-historypage' => 'ଇତିହାସ ପୃଷ୍ଠା',
 );
 
+/** Polish (polski)
+ * @author Chrumps
+ */
+$messages['pl'] = array(
+	'creditssource-historypage' => 'historia strony',
+);
+
 /** Piedmontese (Piemontèis)
  * @author Borichèt
  * @author Dragonòt
