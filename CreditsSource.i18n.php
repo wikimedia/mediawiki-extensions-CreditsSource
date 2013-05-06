@@ -16,6 +16,7 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Nemo bis
  * @author Purodha
  * @author Shirayuki
  */
@@ -28,7 +29,10 @@ $messages['qqq'] = array(
 * $4 - a short name of the site Wikitravel
 * $5 - a link to the history page. Its link text is {{msg-mw|Creditssource-historypage}}.
 * $6 - a date
-* $7 - a time',
+* $7 - a time
+If translation around $2 depends on the morphology, you have two options:
+# Do not translate in your language.
+# Make a translation that does work in your language. I suggest "the site SITENAME".',
 	'creditssource-historypage' => 'Used as link anchor text.
 
 The link points to History page of the specified page.',
