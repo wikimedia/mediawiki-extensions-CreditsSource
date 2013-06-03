@@ -96,7 +96,7 @@ $messages['diq'] = array(
  */
 $messages['dsb'] = array(
 	'creditssource-desc' => 'Pódawa awtorstwo za žrědłowe źěła w nogowej smužce boka',
-	'creditssource-source-work' => 'Toś ten bok jo wót boka $1 na $2 w jogo wersiji wót $3 (UTC) wótwóźony. Tam jo se pód licencu CC BY-SA 3.0 wózjawił. Dalšn drobnostki a dopołna lisćina awtorow su na pśisłušnem boku $5. Awtory projekta Wikitravel markěruju se pśez prefiks $4.',
+	'creditssource-source-work' => 'Toś ten bok jo wót boka $1 na $2 w jogo wersiji wót $3 (UTC) wótwóźony. Tam jo se pód licencu CC BY-SA 3.0 wózjawił. Dalšn drobnostki a dopołna lisćina awtorow su na pśisłušnem boku $5. Awtory projekta Wikitravel markěruju se pśez prefiks $4.', # Fuzzy
 	'creditssource-historypage' => 'wersijowa historija',
 	'creditssource-creditpage' => 'Pódaśa za awtorstwo žrědłowych źěłow.',
 );
@@ -120,7 +120,7 @@ $messages['eo'] = array(
  */
 $messages['es'] = array(
 	'creditssource-desc' => 'Mostrar los créditos de trabajo de fuente en el pie de página',
-	'creditssource-source-work' => 'Este artículo se deriva del artículo $1 de $2 en su revisión de $3 (UTC). Allí, se publica bajo la licencia CC-by-sa 3.0. Puede encontrar más detalles y la lista completa de colaboradores en el archivo asociado $5. (Los colaboradores de Wikitravel están marcados con el prefijo $4).',
+	'creditssource-source-work' => 'Este artículo se deriva del artículo $1 de $2 en su revisión de $3 (UTC). Allí, se publica bajo la licencia CC-by-sa 3.0. Puede encontrar más detalles y la lista completa de colaboradores en el archivo asociado $5. (Los colaboradores de Wikitravel están marcados con el prefijo $4).', # Fuzzy
 	'creditssource-historypage' => 'historial de página',
 	'creditssource-creditpage' => 'Otorga créditos para las fuentes del trabajo.',
 );
@@ -186,7 +186,7 @@ $messages['hi'] = array(
  */
 $messages['hsb'] = array(
 	'creditssource-desc' => 'Podawa awtorstwo za žórłowe dźěła w nohowej lince strony',
-	'creditssource-source-work' => 'Tuta strona je wot strony $1 na $2 w jeje wersiji wot $3 (UTC) wotwodźena. Tam je so pod licencu CC BY-SA 3.0 wozjewiła. Dalše podrobnosće a dospołna lisćina awtorow su na přisłušnej stronje $5. Awtorojo projekta Wikitravel so přez prefiks $4 markěruja.',
+	'creditssource-source-work' => 'Tuta strona je wot strony $1 na $2 w jeje wersiji wot $3 (UTC) wotwodźena. Tam je so pod licencu CC BY-SA 3.0 wozjewiła. Dalše podrobnosće a dospołna lisćina awtorow su na přisłušnej stronje $5. Awtorojo projekta Wikitravel so přez prefiks $4 markěruja.', # Fuzzy
 	'creditssource-historypage' => 'wersijowa historija',
 	'creditssource-creditpage' => 'Podaća za awtorstwo žórłowych dźěłow.',
 );
@@ -196,7 +196,7 @@ $messages['hsb'] = array(
  */
 $messages['id'] = array(
 	'creditssource-desc' => 'Menampilkan penghargaan karya sumber di kaki halaman',
-	'creditssource-source-work' => 'Artikel ini berasal dari artikel $1 pada $2 dalam revisi $3 (UTC). Di sana, artikel ini diterbitkan di bawah lisensi CC-by-sa 3.0. Rincian lebih lanjut dan daftar lengkap kontributor dapat ditemukan di $5. (Kontributor Wikitravel ditandai dengan awalan $4).',
+	'creditssource-source-work' => 'Artikel ini berasal dari artikel $1 pada $2 dalam revisi $3 (UTC). Di sana, artikel ini diterbitkan di bawah lisensi CC-by-sa 3.0. Rincian lebih lanjut dan daftar lengkap kontributor dapat ditemukan di $5. (Kontributor Wikitravel ditandai dengan awalan $4).', # Fuzzy
 	'creditssource-historypage' => 'laman riwayat',
 	'creditssource-creditpage' => 'Memberikan penghargaan untuk karya sumber.',
 );
@@ -296,7 +296,7 @@ $messages['nl'] = array(
 	'creditssource-creditpage' => 'Geeft naamsvermeldingen voor bronwerken.',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
  */
 $messages['or'] = array(
@@ -317,7 +317,7 @@ $messages['pl'] = array(
 $messages['pms'] = array(
 	'creditssource-desc' => "Smon-e j'arconossiment ëd travaj ëd la sordiss al pé dla pàgina",
 	'creditssource-source-work' => "St'artìcol a l'é derivà da l'artìcol $1 dzora $2 ant soa revision da $3 (UTC). Là, a l'é publicà sota la licensa CC-by-sa 3.0. Pi 'd detaj e la lista completa dij contributor a peulo esse trovà dzora al $5 associà. 
-(Ij contributor ëd Wikitravel a son marcà dal prefiss $4).",
+(Ij contributor ëd Wikitravel a son marcà dal prefiss $4).", # Fuzzy
 	'creditssource-historypage' => 'pàgina dla stòria',
 	'creditssource-creditpage' => "A dà j'arconossiment për j'euvre sorgiss.",
 );
@@ -351,7 +351,7 @@ $messages['roa-tara'] = array(
  */
 $messages['ru'] = array(
 	'creditssource-desc' => 'Отображает авторство источника работы в нижней части страницы',
-	'creditssource-source-work' => 'Эта страница основывается на странице $1 с $2 в версии по состоянию на $3 (UTC). Там она опубликована под лицензией CC-BY-SA 3.0. Более подробную информацию и полный список участников, вносивших вклад, можно найти на связанной $5 (авторы Wikitravel обозначены префиксом $4).',
+	'creditssource-source-work' => 'Эта страница основывается на странице $1 с $2 в версии по состоянию на $3 (UTC). Там она опубликована под лицензией CC-BY-SA 3.0. Более подробную информацию и полный список участников, вносивших вклад, можно найти на связанной $5 (авторы Wikitravel обозначены префиксом $4).', # Fuzzy
 	'creditssource-historypage' => 'странице истории',
 	'creditssource-creditpage' => 'Предоставляет отсылку к источнику работы.',
 );
