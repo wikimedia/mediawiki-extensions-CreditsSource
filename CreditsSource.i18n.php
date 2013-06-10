@@ -403,3 +403,13 @@ $messages['zh-hans'] = array(
 	'creditssource-source-work' => '本页面是由$2上$1页面于$6$7（UTC）的修订版本衍生而来的。该页面以知识共享 署名-相同方式共享 3.0协议发布。更多信息及完整的贡献者名单可以在$5查阅到。来自Wikitravel的贡献者会以$4前缀标记。',
 	'creditssource-historypage' => '历史页面',
 );
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Justincheng12345
+ */
+$messages['zh-hant'] = array(
+	'creditssource-desc' => '於頁面底部顯示作品來源',
+	'creditssource-source-work' => '本頁面由$2上$1頁面於$6$7（UTC）的修訂版本衍生而來。該頁面以以共享創意 姓名標示-相同方式分享 3.0 協議發布。更多信息及完整貢獻者名單可於$5查閱。來自Wikitravel的貢獻者會標以$4前缀。',
+	'creditssource-historypage' => '歷史頁面',
+	'creditssource-creditpage' => '提供原始作品出處。',
+);
