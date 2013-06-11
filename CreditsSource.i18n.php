@@ -117,10 +117,11 @@ $messages['eo'] = array(
 
 /** Spanish (español)
  * @author Armando-Martin
+ * @author VegaDark
  */
 $messages['es'] = array(
 	'creditssource-desc' => 'Mostrar los créditos de trabajo de fuente en el pie de página',
-	'creditssource-source-work' => 'Este artículo se deriva del artículo $1 de $2 en su revisión de $3 (UTC). Allí, se publica bajo la licencia CC-by-sa 3.0. Puede encontrar más detalles y la lista completa de colaboradores en el archivo asociado $5. (Los colaboradores de Wikitravel están marcados con el prefijo $4).', # Fuzzy
+	'creditssource-source-work' => 'Este artículo se deriva del artículo $1 de $2 en su revisión de $6 a las $7 (UTC). Allí, se publica bajo la licencia CC-BY-SA 3.0. Puede encontrar más detalles y la lista completa de colaboradores en el archivo asociado $5. Los colaboradores de Wikitravel están marcados con el prefijo $4.',
 	'creditssource-historypage' => 'historial de página',
 	'creditssource-creditpage' => 'Otorga créditos para las fuentes del trabajo.',
 );
