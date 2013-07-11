@@ -133,6 +133,16 @@ $messages['et'] = array(
 	'creditssource-historypage' => 'muudatuste ajalugu',
 );
 
+/** Persian (فارسی)
+ * @author Reza1615
+ */
+$messages['fa'] = array(
+	'creditssource-desc' => 'نمایش اعتبار منابع آثار در پائین صفحه',
+	'creditssource-source-work' => 'این صفحه برگرفته از صفحه  $1  در  $2  در تجدید نظر از  $6  در  $7  (ساعت جهانی).  تحت مجوز 3.0 BY-SA منتشر گردید. جزئیات بیشتر و فهرست کامل مشارکت کنندگان در  $5 موجود است .مشارکت‌کنندگان ویکی‌سفر با پیشوند  $4 مشخص می‌شوند.',
+	'creditssource-historypage' => 'تاریخچهٔ صفحه',
+	'creditssource-creditpage' => 'اعطای اعتبار برای منبع آثار',
+);
+
 /** Finnish (suomi)
  * @author Nedergard
  * @author Silvonen
