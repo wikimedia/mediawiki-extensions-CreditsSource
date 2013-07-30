@@ -202,6 +202,16 @@ $messages['hsb'] = array(
 	'creditssource-creditpage' => 'Podaća za awtorstwo žórłowych dźěłow.',
 );
 
+/** Interlingua (interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'creditssource-desc' => 'Monstrar le creditos pro le obra de fonte al pede del pagina',
+	'creditssource-source-work' => 'Iste pagina deriva del pagina $1 sur $2 in su version del $6 a $7 (UTC). Illac, illo es publicate sub le licentia CC BY-SA 3.0. Plus detalios e le lista complete de contributores se trova sur le $5 associate. Le contributores de Wikitravel es marcate per le prefixo $4.',
+	'creditssource-historypage' => 'pagina de historia',
+	'creditssource-creditpage' => 'Da creditos pro obras de fonte.',
+);
+
 /** Indonesian (Bahasa Indonesia)
  * @author Farras
  */
