@@ -411,7 +411,7 @@ $messages['uk'] = array(
  */
 $messages['vi'] = array(
 	'creditssource-desc' => 'Hiển thị lời ghi công tác phẩm gốc ở cuối trang',
-	'creditssource-source-work' => 'Trang này bắt nguồn từ trang $1 tại $2, phiên bản vào $3 (UTC). Bản gốc ở đấy được phát hành theo giấy phép CC BY-SA 3.0. Xem thêm chi tiết và danh sách người đóng góp đầy đủ tại $5. Những người đóng góp ở Wikitravel có tiền tố $4.', # Fuzzy
+	'creditssource-source-work' => 'Trang này bắt nguồn từ trang $1 tại $2, phiên bản ngày $6 vào $7 (UTC). Bản gốc ở đấy được phát hành theo giấy phép CC BY-SA 3.0. Xem thêm chi tiết và danh sách người đóng góp đầy đủ tại $5. Những người đóng góp ở Wikitravel có tiền tố $4.',
 	'creditssource-historypage' => 'trang lịch sử',
 	'creditssource-creditpage' => 'Ghi công các tác phẩm gốc.',
 );
