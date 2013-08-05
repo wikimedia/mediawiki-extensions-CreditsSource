@@ -403,7 +403,10 @@ $messages['sv'] = array(
  * @author Ата
  */
 $messages['uk'] = array(
+	'creditssource-desc' => 'Відображає дані про авторство у нижній частині сторінки.',
+	'creditssource-source-work' => "Ця сторінка є похідною від $1 на сайті $2 у її версії від $6 $7 (UTC). Там вона опублікована під ліцензією CC BY-SA 3.0. Більше деталей та повний список дописувачів можна знайти на пов'язаній сторінці $5. Дописувачі Wikitravel позначені префіксом $4.",
 	'creditssource-historypage' => 'сторінка історії',
+	'creditssource-creditpage' => 'Надає дані про авторство.',
 );
 
 /** Vietnamese (Tiếng Việt)
