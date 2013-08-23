@@ -44,7 +44,7 @@ The link points to History page of the specified page.',
  */
 $messages['ast'] = array(
 	'creditssource-desc' => 'Ver los créditos del trabayu fonte nel pie de páxina',
-	'creditssource-source-work' => 'Esta páxina ye una derivada de la páxina $1 de $2 na so revisión del $3 (UTC). Ellí, ta espublizada baxo la llicencia CC BY-SA 3.0. Puen alcontrase más detalles y la llista completa de collaboradores na $5 asociada. Los collaboradores de Uiquiviaxes tan marcaos col prefixu $4.', # Fuzzy
+	'creditssource-source-work' => 'Esta páxina ye una derivada de la páxina $1 de $2 na so revisión del $6 a les $7 (UTC). Ellí, ta espublizada baxo la llicencia CC BY-SA 3.0. Puen alcontrase más detalles y la llista completa de collaboradores na $5 asociada. Los collaboradores de Wikitravel tan marcaos col prefixu $4.',
 	'creditssource-historypage' => 'páxina del historial',
 	'creditssource-creditpage' => 'Da créditos a les fontes del trabayu.',
 );
