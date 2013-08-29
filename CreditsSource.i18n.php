@@ -317,6 +317,15 @@ $messages['nl'] = array(
 	'creditssource-creditpage' => 'Geeft naamsvermeldingen voor bronwerken.',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'creditssource-desc' => 'Afichar los crèdits de trabalh de la font dins lo pè de la pagina',
+	'creditssource-historypage' => "pagina de l'istòria",
+	'creditssource-creditpage' => 'Donar un crèdit per las òbras font.',
+);
+
 /** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
  */
