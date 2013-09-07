@@ -25,7 +25,7 @@ $messages['qqq'] = array(
 	'creditssource-source-work' => 'Parameters:
 * $1 - an external link to the source. Its link text is page title.
 * $2 - an external link to the site. Its link text is site name.
-* $3 - unused
+* $3 - (Unused) timestamp (time and date)
 * $4 - a short name of the site Wikitravel
 * $5 - a link to the history page. Its link text is {{msg-mw|Creditssource-historypage}}.
 * $6 - a date
