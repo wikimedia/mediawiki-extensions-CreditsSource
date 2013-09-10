@@ -359,6 +359,16 @@ $messages['ps'] = array(
 	'creditssource-historypage' => 'مخ پېښليک',
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
+ */
+$messages['pt-br'] = array(
+	'creditssource-desc' => 'Exibe créditos pela origem do trabalho no rodapé das páginas',
+	'creditssource-source-work' => 'Esta página é derivada da página $1 em $2 na sua revisão de $6 em $7 (UTC). Lá, é publicada sob a licença CC BY-SA 3.0. Mais detalhes e a lista completa de contribuidores pode ser encontrados no $5 correspondente. Contribuidores do Wikitravel estão marcados pelo prefixo $4.',
+	'creditssource-historypage' => 'histórico da página',
+	'creditssource-creditpage' => 'Dá crédito ao sourceworks.',
+);
+
 /** Romanian (română)
  * @author Minisarm
  */
