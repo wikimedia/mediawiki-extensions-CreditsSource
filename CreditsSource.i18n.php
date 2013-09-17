@@ -271,10 +271,11 @@ $messages['ksh'] = array(
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
 	'creditssource-desc' => "Weist d'Nimm vun de Quellen am Fouss vun der Säit",
-	'creditssource-source-work' => 'Dës Säit ass ofgeleet vun der Säit $1 op $2 an der Versioun vum $6 ëm $7 (UTC). Do ass se publizéiert ënnert der Lizenz CC BY-SA 3.0. Méi Detailer an déi komplett Lëscht vun den Auteuren fannt Dir op $5. Wikitravel Auteure si mam Prefix $4 markéiert.',
+	'creditssource-source-work' => 'Dës Säit ass ofgeleet vun der Säit $1 op $2 an der Versioun vum $6 ëm $7 (UTC). Do ass se publizéiert ënner der Lizenz CC BY-SA 3.0. Méi Detailer an déi komplett Lëscht vun den Auteuren fannt Dir op $5. Wikitravel Auteure si mam Prefix $4 markéiert.',
 	'creditssource-historypage' => 'Versioune vun der Säit',
 	'creditssource-creditpage' => "Weist d'Quelle fir se z'honoréieren.",
 );
