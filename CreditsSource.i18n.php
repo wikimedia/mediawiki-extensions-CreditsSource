@@ -444,12 +444,13 @@ $messages['vi'] = array(
  * @author Hydra
  * @author Kuailong
  * @author Qiyue2001
+ * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
-	'creditssource-desc' => '在页面底部显示源作品',
-	'creditssource-source-work' => '本页面是由$2上$1页面于$6$7（UTC）的修订版本衍生而来的。该页面以知识共享 署名-相同方式共享 3.0协议发布。更多信息及完整的贡献者名单可以在$5查阅到。来自Wikitravel的贡献者会以$4前缀标记。',
+	'creditssource-desc' => '在页脚显示原作品来源',
+	'creditssource-source-work' => '本页面的原作品来源于$2页面$1$6 $7（UTC）的版本。在该来源网站上，它采用CC“BY-SA 3.0”许可协议授权。更多详细信息和贡献者的完整列表可以在相关的$5上找到。Wikitravel贡献者以前缀$4标记。',
 	'creditssource-historypage' => '历史页面',
-	'creditssource-creditpage' => '提供原始作品出处。',
+	'creditssource-creditpage' => '提供原作品的来源。',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
