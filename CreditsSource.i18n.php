@@ -414,10 +414,14 @@ $messages['sr-ec'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Bengt B
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
+	'creditssource-desc' => 'Visa källarbetskrediteringar i sidfoten',
+	'creditssource-source-work' => 'Denna sida kommer från sidan $1 på $2 i sin översyn från $6 på $7 (UTC). Där, det är publicerade under licensen CC BY-SA 3.0. Mer information och den fullständiga listan över bidragsgivare återfinns på den tillhörande $5. Tidigare bidragsgivare är markerade med prefixet $4 .',
 	'creditssource-historypage' => 'historiksida',
+	'creditssource-creditpage' => 'Kreditera för källarbetet',
 );
 
 /** Ukrainian (українська)
