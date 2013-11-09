@@ -347,8 +347,8 @@ $messages['pl'] = array(
  */
 $messages['pms'] = array(
 	'creditssource-desc' => "Smon-e j'arconossiment ëd travaj ëd la sordiss al pé dla pàgina",
-	'creditssource-source-work' => "St'artìcol a l'é derivà da l'artìcol $1 dzora $2 ant soa revision da $3 (UTC). Là, a l'é publicà sota la licensa CC-by-sa 3.0. Pi 'd detaj e la lista completa dij contributor a peulo esse trovà dzora al $5 associà. 
-(Ij contributor ëd Wikitravel a son marcà dal prefiss $4).", # Fuzzy
+	'creditssource-source-work' => "St'artìcol a l'é derivà da l'artìcol $1 dzora $2 ant soa revision da $6 a $7 (UTC). Là, a l'é publicà sota la licensa CC-by-sa 3.0. Pi 'd detaj e la lista completa dij contributor a peulo esse trovà dzora al $5 associà. 
+Ij contributor ëd Wikitravel a son marcà dal prefiss $4.",
 	'creditssource-historypage' => 'pàgina dla stòria',
 	'creditssource-creditpage' => "A dà j'arconossiment për j'euvre sorgiss.",
 );
