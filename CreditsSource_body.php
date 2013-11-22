@@ -23,7 +23,9 @@ class CreditsSourceAction extends FormlessAction {
 			$content = $this->msg( 'nocredits' )->parse();
 		} else {
 			global $wgMaxCredits, $wgShowCreditsIfMax;
-			$content = self::getCredits( $wgMaxCredits, $wgShowCreditsIfMax );
+			$content = self::getCredits(
+				$wgMaxCredits, $wgShowCreditsIfMax, $this->getTitle()
+			);
 		}
 
 		return Html::rawElement( 'div', array( 'id' => 'mw-credits' ), $content );
@@ -32,24 +34,25 @@ class CreditsSourceAction extends FormlessAction {
 	/**
 	 * @param int $maxCredits The max amount of credits to display
 	 * @param int $showCreditsIfMax Credit only the top authors if there are too many
+	 * @param Title $title Title to get the credits for
 	 * @return string
 	 */
-	public static function getCredits( $maxCredits, $showCreditsIfMax ) {
-		global $wgTitle, $wgLang;
+	public static function getCredits( $maxCredits, $showCreditsIfMax, $title ) {
+		global $wgLang;
 
 		$maxCredits = $showCreditsIfMax ? $maxCredits : 9999999;
 
 		wfProfileIn( __METHOD__ );
 
 		$return = '';
-		$pageId = $wgTitle->getArticleID();
+		$pageId = $title->getArticleID();
 		$sourceWorks = SimpleSourceWork::newFromPageId( $pageId, $maxCredits );
 
 		foreach ( $sourceWorks as $source ) {
 			$sourceLink = Linker::makeExternalLink( $source->mUri, $source->mTitle );
 			$siteLink = Linker::makeExternalLink( $source->mSiteUri, $source->mSiteName );
 			$historyLink = Linker::linkKnown(
-				$wgTitle,
+				$title,
 				wfMessage( 'creditssource-historypage' )->text(),
 				array(),
 				array( 'action' => 'history' )
