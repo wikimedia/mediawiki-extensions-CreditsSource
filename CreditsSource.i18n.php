@@ -452,7 +452,7 @@ $messages['vi'] = array(
  */
 $messages['zh-hans'] = array(
 	'creditssource-desc' => '在页脚显示原作品来源',
-	'creditssource-source-work' => '本页面的原作品来源于$2页面$1$6 $7（UTC）的版本。在该来源网站上，它采用CC“BY-SA 3.0”许可协议授权。更多详细信息和贡献者的完整列表可以在相关的$5上找到。Wikitravel贡献者以前缀$4标记。',
+	'creditssource-source-work' => '本页面的原作品来源于$2页面$1$6 $7（UTC）的版本。在该来源网站上，它采用CC“BY-SA 3.0”许可协议授权。更多详细信息和贡献者的完整列表可以在关联的$5上找到。Wikitravel贡献者以前缀$4标记。',
 	'creditssource-historypage' => '历史页面',
 	'creditssource-creditpage' => '提供原作品的来源。',
 );
