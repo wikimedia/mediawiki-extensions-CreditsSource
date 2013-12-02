@@ -108,6 +108,13 @@ $messages['el'] = array(
 	'creditssource-historypage' => 'ιστορικό σελίδας',
 );
 
+/** British English (British English)
+ * @author Shirayuki
+ */
+$messages['en-gb'] = array(
+	'creditssource-source-work' => 'This page is derived from the page $1 on $2 in its revision from $6 at $7 (UTC). There, it is published under the CC BY-SA 3.0 licence. More details and the full list of contributors can be found on the associated $5. Wikitravel contributors are marked by the prefix $4.',
+);
+
 /** Esperanto (Esperanto)
  * @author Yekrats
  */
