@@ -63,7 +63,7 @@ $messages['br'] = array(
 	'creditssource-historypage' => 'istor ar bajenn',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Mormegil
  */
 $messages['cs'] = array(
@@ -204,7 +204,7 @@ $messages['hi'] = array(
  */
 $messages['hsb'] = array(
 	'creditssource-desc' => 'Podawa awtorstwo za žórłowe dźěła w nohowej lince strony',
-	'creditssource-source-work' => 'Tuta strona je wot strony $1 na $2 w jeje wersiji wot $3 (UTC) wotwodźena. Tam je so pod licencu CC BY-SA 3.0 wozjewiła. Dalše podrobnosće a dospołna lisćina awtorow su na přisłušnej stronje $5. Awtorojo projekta Wikitravel so přez prefiks $4 markěruja.', # Fuzzy
+	'creditssource-source-work' => 'Tuta strona je wot strony $1 na $2 w jeje wersiji wot $6 $7 (UTC) wotwodźena. Tam je so pod licencu CC BY-SA 3.0 wozjewiła. Dalše podrobnosće a dospołna lisćina awtorow su na přisłušnej stronje $5. Awtorojo projekta Wikitravel so přez prefiks $4 markěruja.',
 	'creditssource-historypage' => 'wersijowa historija',
 	'creditssource-creditpage' => 'Podaća za awtorstwo žórłowych dźěłow.',
 );
