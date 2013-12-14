@@ -23,8 +23,8 @@ class CreditsSourceAction extends FormlessAction {
 			$content = $this->msg( 'nocredits' )->parse();
 		} else {
 			global $wgMaxCredits, $wgShowCreditsIfMax;
-			$content = self::getCredits(
-				$wgMaxCredits, $wgShowCreditsIfMax, $this->getTitle()
+			$content = $this->getCredits(
+				$wgMaxCredits, $wgShowCreditsIfMax
 			);
 		}
 
@@ -34,25 +34,24 @@ class CreditsSourceAction extends FormlessAction {
 	/**
 	 * @param int $maxCredits The max amount of credits to display
 	 * @param int $showCreditsIfMax Credit only the top authors if there are too many
-	 * @param Title $title Title to get the credits for
 	 * @return string
 	 */
-	public static function getCredits( $maxCredits, $showCreditsIfMax, $title ) {
-		global $wgLang;
-
+	public function getCredits( $maxCredits, $showCreditsIfMax = true ) {
 		$maxCredits = $showCreditsIfMax ? $maxCredits : 9999999;
 
 		wfProfileIn( __METHOD__ );
 
 		$return = '';
-		$pageId = $title->getArticleID();
+		$pageId = $this->getTitle()->getArticleID();
 		$sourceWorks = SimpleSourceWork::newFromPageId( $pageId, $maxCredits );
+		$lang = $this->getLanguage();
+		$user = $this->getUser();
 
 		foreach ( $sourceWorks as $source ) {
 			$sourceLink = Linker::makeExternalLink( $source->mUri, $source->mTitle );
 			$siteLink = Linker::makeExternalLink( $source->mSiteUri, $source->mSiteName );
 			$historyLink = Linker::linkKnown(
-				$title,
+				$this->getTitle(),
 				wfMessage( 'creditssource-historypage' )->text(),
 				array(),
 				array( 'action' => 'history' )
@@ -63,11 +62,11 @@ class CreditsSourceAction extends FormlessAction {
 			$return .= wfMessage( 'creditssource-source-work' )->params(
 				$sourceLink,
 				$siteLink,
-				$wgLang->timeanddate( $source->mTs ),
+				$lang->userTimeAndDate( $source->mTs, $user ),
 				$source->mSiteShortName,
 				$historyLink,
-				$wgLang->date( $source->mTs ),
-				$wgLang->time( $source->mTs )
+				$lang->userDate( $source->mTs, $user ),
+				$lang->userTime( $source->mTs, $user )
 			)->text();
 		}
 
