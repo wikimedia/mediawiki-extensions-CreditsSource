@@ -172,6 +172,13 @@ $messages['fr'] = array(
 	'creditssource-creditpage' => 'Donner un crédit pour les œuvres source.',
 );
 
+/** Western Frisian (Frysk)
+ * @author Kening Aldgilles
+ */
+$messages['fy'] = array(
+	'creditssource-historypage' => 'skiednis side',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
