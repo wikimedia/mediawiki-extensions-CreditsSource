@@ -375,6 +375,17 @@ $messages['ps'] = array(
 	'creditssource-historypage' => 'مخ پېښليک',
 );
 
+/** Portuguese (português)
+ * @author Hamilton Abreu
+ * @author SandroHc
+ */
+$messages['pt'] = array(
+	'creditssource-desc' => 'Mostrar os créditos de autoria da obra original no rodapé da página',
+	'creditssource-source-work' => 'Esta página foi derivada da página $1 em $2 na sua revisão de $6 às $7 (UTC), publicada ao abrigo da licença CC BY-SA 3.0. Encontrará mais detalhes e a lista completa de contribuidores na $5 associada. Os contribuidores da Wikitravel estão assinalados com o prefixo $4.',
+	'creditssource-historypage' => 'página de histórico',
+	'creditssource-creditpage' => 'Atribui os créditos de autoria das obras fonte.',
+);
+
 /** Brazilian Portuguese (português do Brasil)
  * @author Cainamarques
  */
