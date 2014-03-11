@@ -77,8 +77,7 @@ $messages['cs'] = array(
  */
 $messages['de'] = array(
 	'creditssource-desc' => 'Ermöglicht die Namensnennungsanzeige von Quellwerken in der Fußzeile',
-	'creditssource-source-work' => 'Diese Seite ist abgeleitet von der Seite $1 auf $2 in der Version vom $6 um $7 (UTC). Dort wurde sie unter der CC-BY-SA-3.0-Lizenz veröffentlicht. Mehr Informationen und eine volle Liste der Autoren befindet sich in der dazugehörigen $5. Wikitravel-Autoren werden durch das Präfix „$4“ markiert.',
-	'creditssource-historypage' => 'Versionsgeschichte',
+	'creditssource-credits' => 'Diese Seite ist abgeleitet von der Seite [$1 $2] auf [$3 $4] in ihrer Version vom $8 um $9 (UTC). Dort wurde sie unter der CC-BY-SA-3.0-Lizenz veröffentlicht. Weitere Einzelheiten und eine vollständige Autorenliste kann in der zugehörigen [[$5|Versionsgeschichte]] eingesehen werden. Wikitravel-Autoren werden mit dem Präfix $6 gekennzeichnet.',
 	'creditssource-creditpage' => 'Angaben zu den Quellen',
 );
 
@@ -165,8 +164,7 @@ $messages['fi'] = array(
  */
 $messages['fr'] = array(
 	'creditssource-desc' => 'Afficher les crédits de travail de la source dans le pied de la page',
-	'creditssource-source-work' => 'Cette page est tirée de la page $1 sur $2 dans sa révision du $6 à $7 (UTC). Ici, elle est publiée sous la licence CC BY-SA 3.0. Vous pouvez trouver plus de détails et la liste complète des contributeurs sur le $5 associé. Les contributeurs Wikitravel sont repérés par le préfixe $4.',
-	'creditssource-historypage' => "page de l'histoire",
+	'creditssource-credits' => 'Cette page est dérivée de la page [$1 $2] sur [$3 $4] dans sa révision du $8 à $9 (UTC). Ici, elle est publiée sous la licence CC BY-SA 3.0. Plus de détails et la liste complète des contributeurs disponibles sur la [[$5|page d’historique]] associée. Les contributeurs de Wikitravel sont signalés avec le préfixe $6.',
 	'creditssource-creditpage' => 'Donner un crédit pour les œuvres source.',
 );
 
@@ -239,8 +237,7 @@ $messages['id'] = array(
  */
 $messages['it'] = array(
 	'creditssource-desc' => "Mostra i crediti per l'opera nel piè di pagina",
-	'creditssource-source-work' => 'Questa pagina deriva dalla pagina $1 su $2 nella versione del $6 alle $7 (UTC). Là, è stata pubblicata con licenza CC BY-SA 3.0. Maggiori dettagli e la lista completa dei contributori possono essere trovati nella $5 associata. I contributori di Wikitravel sono contrassegnati dal prefisso $4.',
-	'creditssource-historypage' => 'cronologia pagina',
+	'creditssource-credits' => 'Questa pagina deriva dalla pagina [$1 $2] su [$3 $4] nella versione del $8 alle $9 (UTC). Là, è stata pubblicata con licenza CC BY-SA 3.0. Maggiori dettagli e la lista completa dei contributori possono essere trovati nella [[$5|cronologia]] associata. I contributori di Wikitravel sono contrassegnati dal prefisso $6.',
 	'creditssource-creditpage' => 'Fornisce i crediti per le opere di origine.',
 );
 
@@ -305,8 +302,7 @@ $messages['lt'] = array(
  */
 $messages['mk'] = array(
 	'creditssource-desc' => 'Приказ на припис во поднојжето на страницата',
-	'creditssource-source-work' => 'Страницава е изведена од страницата $1 на $2 од нејзината ревизија од $6 во $7 (UTC). Таму е објавена под лиценцата CC BY-SA 3.0. Повеќе информации и полн список на учесниците ќе најдете на нејзината $5. Учесниците на Википатување се означени со претставката $4.',
-	'creditssource-historypage' => 'историја',
+	'creditssource-credits' => 'Страницава е изведена од страницата [$1 $2] на [$3 $4] од нејзината ревизија од $8 во $9 (UTC). Таму е објавена под лиценцата CC BY-SA 3.0. Повеќе информации и полн список на учесниците ќе најдете на нејзината [[$5|историја]]. Учесниците на Википатување се означени со претставката $6.',
 	'creditssource-creditpage' => 'Припишува користени изворни дела.',
 );
 
@@ -379,8 +375,6 @@ $messages['ps'] = array(
  */
 $messages['pt'] = array(
 	'creditssource-desc' => 'Mostrar os créditos de autoria da obra original no rodapé da página',
-	'creditssource-source-work' => 'Esta página foi derivada da página $1 em $2 na sua revisão de $6 às $7 (UTC), publicada ao abrigo da licença CC BY-SA 3.0. Encontrará mais detalhes e a lista completa de contribuidores na $5 associada. Os contribuidores da Wikitravel estão assinalados com o prefixo $4.',
-	'creditssource-historypage' => 'página de histórico',
 	'creditssource-creditpage' => 'Atribui os créditos de autoria das obras fonte.',
 );
 
@@ -417,8 +411,7 @@ $messages['roa-tara'] = array(
  */
 $messages['ru'] = array(
 	'creditssource-desc' => 'Отображает авторство источника работы в нижней части страницы',
-	'creditssource-source-work' => 'Эта страница основывается на странице $1 с $2 в версии по состоянию на $6 в $7 (UTC). Там она опубликована под лицензией CC BY-SA 3.0. Более подробную информацию и полный список участников, вносивших вклад, можно найти на связанной $5. Авторы Wikitravel обозначены префиксом $4.',
-	'creditssource-historypage' => 'странице истории',
+	'creditssource-credits' => 'Эта страница является производной от страницы [$1 $2] на [$3 $4] в редакции от $8 в $9 (UTC). Там она опубликована под лицензией CC BY-SA 3.0. Более подробную информацию и полный список авторов может быть найден на соответствующий [[$5|странице истории изменений]]. Авторы с сайта Википутешествий обозначены префиксом $6.',
 	'creditssource-creditpage' => 'Предоставляет отсылку к источнику работы.',
 );
 
