@@ -10,8 +10,7 @@ $messages = array();
 
 $messages['en'] = array(
 	'creditssource-desc'            => 'Display source work credits in the page footer',
-	'creditssource-source-work'     => 'This page is derived from the page $1 on $2 in its revision from $6 at $7 (UTC). There, it is published under the CC BY-SA 3.0 license. More details and the full list of contributors can be found on the associated $5. Wikitravel contributors are marked by the prefix $4.',
-	'creditssource-historypage'     => 'history page',
+	'creditssource-credits'         => 'This page is derived from the page [$1 $2] on [$3 $4] in its revision from $8 at $9 (UTC). There, it is published under the CC BY-SA 3.0 license. More details and the full list of contributors can be found on the associated [[$5|history page]]. Wikitravel contributors are marked by the prefix $6.',
 	'creditssource-creditpage'      => 'Gives credits for sourceworks.',
 );
 
@@ -22,20 +21,19 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'creditssource-desc' => '{{desc|name=Credits Source|url=http://www.mediawiki.org/wiki/Extension:CreditsSource}}',
-	'creditssource-source-work' => 'Parameters:
-* $1 - an external link to the source. Its link text is page title.
-* $2 - an external link to the site. Its link text is site name.
-* $3 - (Unused) timestamp (time and date)
-* $4 - a short name of the site Wikitravel
-* $5 - a link to the history page. Its link text is {{msg-mw|Creditssource-historypage}}.
-* $6 - a date
-* $7 - a time
+	'creditssource-credits' => 'Parameters:
+* $1 - an external url to the source; can be used to construct a link like: [$1 $2]
+* $2 - title of the external source
+* $3 - an external url to the site; can be used to construct a link like: [$3 $4]
+* $4 - title of the external site
+* $5 - a relative url that points to History page of the specified page; can be used to construct a link [[$5|like this]]
+* $6 - a short name of the site Wikitravel
+* $7 - time and date timestamp
+* $8 - a date
+* $9 - a time
 If translation around $2 depends on the morphology, you have two options:
 # Do not translate in your language.
 # Make a translation that does work in your language. I suggest "the site SITENAME".',
-	'creditssource-historypage' => 'Used as link anchor text.
-
-The link points to History page of the specified page.',
 	'creditssource-creditpage' => 'Description to be displayed on the credits action page.',
 );
 

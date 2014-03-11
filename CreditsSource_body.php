@@ -48,26 +48,23 @@ class CreditsSourceAction extends FormlessAction {
 		$user = $this->getUser();
 
 		foreach ( $sourceWorks as $source ) {
-			$sourceLink = Linker::makeExternalLink( $source->mUri, $source->mTitle );
-			$siteLink = Linker::makeExternalLink( $source->mSiteUri, $source->mSiteName );
-			$historyLink = Linker::linkKnown(
-				$this->getTitle(),
-				wfMessage( 'creditssource-historypage' )->text(),
-				array(),
-				array( 'action' => 'history' )
-			);
-
 			// This is safe, since we don't allow writing to the swsite tables. If that
 			// changes in the future, mSiteShortName will need to be escaped here.
-			$return .= wfMessage( 'creditssource-source-work' )->params(
-				$sourceLink,
-				$siteLink,
-				$lang->userTimeAndDate( $source->mTs, $user ),
+			$return .= wfMessage( 'creditssource-credits' )->params(
+				// source link (absolute) url + title
+				$source->mUri,
+				$source->mTitle,
+				// site link (absolute) url + title
+				$source->mSiteUri,
+				$source->mSiteName,
+				// history link internal (relative) url
+				$this->getTitle()->getLocalURL( array( 'action' => 'history' ) ),
+
 				$source->mSiteShortName,
-				$historyLink,
+				$lang->userTimeAndDate( $source->mTs, $user ),
 				$lang->userDate( $source->mTs, $user ),
 				$lang->userTime( $source->mTs, $user )
-			)->text();
+			)->parse();
 		}
 
 		wfProfileOut( __METHOD__ );
