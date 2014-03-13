@@ -142,8 +142,7 @@ $messages['et'] = array(
  */
 $messages['fa'] = array(
 	'creditssource-desc' => 'نمایش اعتبار منابع آثار در پائین صفحه',
-	'creditssource-source-work' => 'این صفحه برگرفته از صفحه  $1  در  $2  در تجدید نظر از  $6  در  $7  (ساعت جهانی).  تحت مجوز 3.0 BY-SA منتشر گردید. جزئیات بیشتر و فهرست کامل مشارکت کنندگان در  $5 موجود است .مشارکت‌کنندگان ویکی‌سفر با پیشوند  $4 مشخص می‌شوند.',
-	'creditssource-historypage' => 'تاریخچهٔ صفحه',
+	'creditssource-credits' => 'این صفحه برگرفته از صفحه  [$1 $2]  در  [$3 $4]  در تجدید نظر از  $8  در  $9  (ساعت جهانی).  تحت مجوز 3.0 BY-SA منتشر گردید. جزئیات بیشتر و فهرست کامل مشارکت کنندگان در   [[$5|تاریخچهٔ صفحه]] موجود است .مشارکت‌کنندگان ویکی‌سفر با پیشوند  $6 مشخص می‌شوند.',
 	'creditssource-creditpage' => 'اعطای اعتبار برای منبع آثار',
 );
 
@@ -246,8 +245,7 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'creditssource-desc' => 'ページのフッターに元の記事のクレジットを表示する',
-	'creditssource-source-work' => 'このページは $2 のページ $1 の $6 $7 (UTC) の版から派生したものです。そこでは、クリエイティブ・コモンズ 表示-継承 3.0 ライセンスの下で公開されていました。詳細と投稿者の完全な一覧は対応する$5にあります。ウィキトラベルの投稿者は先頭に $4 が付いています。',
-	'creditssource-historypage' => '履歴ページ',
+	'creditssource-credits' => 'このページは [$3 $4] のページ [$1 $2] の $8 $9 (UTC) の版から派生したものです。そこでは、クリエイティブ・コモンズ 表示-継承 3.0 ライセンスの下で公開されていました。詳細と投稿者の完全な一覧は対応する[[$5|履歴ページ]]にあります。ウィキトラベルの投稿者は先頭に $6 が付いています。',
 	'creditssource-creditpage' => '元の記事のクレジットを表示します。',
 );
 
@@ -415,6 +413,13 @@ $messages['ru'] = array(
 	'creditssource-creditpage' => 'Предоставляет отсылку к источнику работы.',
 );
 
+/** Scots (Scots)
+ * @author John Reid
+ */
+$messages['sco'] = array(
+	'creditssource-credits' => "This page is derived fae the page [$1 $2] oan [$3 $4] in its reveesion fae $8 at $9 (UTC). Thaur, it's publeeshed unner the CC BY-SA 3.0 license. Mair details n the ful leet o contreebuters can be foond oan the assoceeated [[$5|histerie page]]. Wikitravel contreebuters ar maurkt bi the preefix $6.",
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
@@ -456,8 +461,7 @@ $messages['uk'] = array(
  */
 $messages['vi'] = array(
 	'creditssource-desc' => 'Hiển thị lời ghi công tác phẩm gốc ở cuối trang',
-	'creditssource-source-work' => 'Trang này bắt nguồn từ trang $1 tại $2, phiên bản ngày $6 vào $7 (UTC). Bản gốc ở đấy được phát hành theo giấy phép CC BY-SA 3.0. Xem thêm chi tiết và danh sách người đóng góp đầy đủ tại $5. Những người đóng góp ở Wikitravel có tiền tố $4.',
-	'creditssource-historypage' => 'trang lịch sử',
+	'creditssource-credits' => 'Trang này bắt nguồn từ trang [$1 $2] tại [$3 $4], phiên bản vào $8 lúc $9 (UTC). Bản gốc ở đấy được phát hành theo giấy phép CC BY-SA 3.0. Xem thêm chi tiết và danh sách người đóng góp đầy đủ tại [[$5|trang lịch sử]] của trang này. Những người đóng góp vào Wikitravel có tiền tố $6.',
 	'creditssource-creditpage' => 'Ghi công các tác phẩm gốc.',
 );
 
