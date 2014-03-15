@@ -109,7 +109,7 @@ $messages['el'] = array(
  * @author Shirayuki
  */
 $messages['en-gb'] = array(
-	'creditssource-source-work' => 'This page is derived from the page $1 on $2 in its revision from $6 at $7 (UTC). There, it is published under the CC BY-SA 3.0 licence. More details and the full list of contributors can be found on the associated $5. Wikitravel contributors are marked by the prefix $4.',
+	'creditssource-credits' => 'This page is derived from the page [$1 $2] on [$3 $4] in its revision from $8 at $9 (UTC). There, it is published under the CC BY-SA 3.0 licence. More details and the full list of contributors can be found on the associated [[$5|history page]]. Wikitravel contributors are marked by the prefix $6.',
 );
 
 /** Esperanto (Esperanto)
@@ -189,8 +189,7 @@ $messages['gl'] = array(
  */
 $messages['he'] = array(
 	'creditssource-desc' => 'הצגת הקרדיטים על היצירה המקורית בתחתית הדף',
-	'creditssource-source-work' => 'הדף הזה נגזר מהדף $1 ב{{GRAMMAR:תחילית|$2}} בגרסה מ־$6 בשעה $7 (זמן יקום מתואם). שם הוא פורסם לפי רישיון CC-BY-SA 3.0. פרטים נוספים ורשימה מלאה של התורמים לערך אפשר למצור ב{{GRAMMAR:תחילית|$5}}. (תורמי ויקימסע מסומנים בתחילית $4.)',
-	'creditssource-historypage' => 'דף היסטוריה',
+	'creditssource-credits' => 'הדף הזה מבוסס על הדף [$1 $2] ב[$3 $4] בגרסה $8 מ־$9 (UTC). שם הוא פורסם ברישיון CC BY-SA 3.0. אפשר למצוא פרטים נוספים ורשימה מלאה של תורמים ב[[$5|דף ההיסטוריה]]. תורמי Wikitravel מסומנים עם התחילית $6.',
 	'creditssource-creditpage' => 'מתן קרדיטים ליצירות המקוריות',
 );
 
@@ -447,12 +446,12 @@ $messages['sv'] = array(
 );
 
 /** Ukrainian (українська)
+ * @author Andriykopanytsia
  * @author Ата
  */
 $messages['uk'] = array(
 	'creditssource-desc' => 'Відображає дані про авторство у нижній частині сторінки.',
-	'creditssource-source-work' => "Ця сторінка є похідною від $1 на сайті $2 у її версії від $6 $7 (UTC). Там вона опублікована під ліцензією CC BY-SA 3.0. Більше деталей та повний список дописувачів можна знайти на пов'язаній сторінці $5. Дописувачі Wikitravel позначені префіксом $4.",
-	'creditssource-historypage' => 'сторінка історії',
+	'creditssource-credits' => 'Ця сторінка є похідною від сторінки [$1 $2] [$3 $4] в редакції від $8 до $9 (UTC). Там вона опублікована під ліцензією CC BY-SA 3.0. Більш детальну інформацію та повний список авторів може бути знайдений на відповідний [[$5|сторінки історії змін]]. Автори сайту Вікі подорожі позначені префіксом $6.',
 	'creditssource-creditpage' => 'Надає дані про авторство.',
 );
 
