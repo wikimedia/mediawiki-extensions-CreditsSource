@@ -42,8 +42,7 @@ If translation around $2 depends on the morphology, you have two options:
  */
 $messages['ast'] = array(
 	'creditssource-desc' => 'Ver los créditos del trabayu fonte nel pie de páxina',
-	'creditssource-source-work' => 'Esta páxina ye una derivada de la páxina $1 de $2 na so revisión del $6 a les $7 (UTC). Ellí, ta espublizada baxo la llicencia CC BY-SA 3.0. Puen alcontrase más detalles y la llista completa de collaboradores na $5 asociada. Los collaboradores de Wikitravel tan marcaos col prefixu $4.',
-	'creditssource-historypage' => 'páxina del historial',
+	'creditssource-credits' => 'Esta páxina ye una derivada de la páxina [$1 $2] de [$3 $4] na so revisión del $8 a les $9 (UTC). Ellí, ta espublizada baxo la llicencia CC BY-SA 3.0. Puen alcontrase más detalles y la llista completa de collaboradores na [[$5|páxina del historial]] asociada. Los collaboradores de Wikitravel tan marcaos col prefixu $6.',
 	'creditssource-creditpage' => 'Da créditos a les fontes del trabayu.',
 );
 
