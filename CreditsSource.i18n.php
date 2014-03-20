@@ -320,8 +320,7 @@ $messages['ms'] = array(
  */
 $messages['nl'] = array(
 	'creditssource-desc' => "Naamsvermeldingen voor het werk weergeven in de voettekst van pagina's",
-	'creditssource-source-work' => 'Deze pagina is afgeleid van de pagina $1 op $2, versie van $6 om $7 (UTC). Daar is de inhoud gelicenseerd onder de licentie CC BY-SA 3.0. Meer details en de volledige lijst van bijdragers kunnen geraadpleegd worden op de bijbehorende $5. Bijdragers van Wikitravel worden aangegeven met het voorvoegsel $4.',
-	'creditssource-historypage' => 'geschiedenispagina',
+	'creditssource-credits' => 'Deze pagina is afgeleid van de pagina [$1 $2] op [$3 $4] in de versie van $8 om $9 (UTC). Daar is de inhoud gepubliceerd onder de licentie CC BY-SA 3.0. Meer details en de volledige lijst van bijdragers zijn de vinden op de bijbehorende [[$5|geschiedenispagina]]. Bijdragers aan Wikitravel zijn gemarkeerd met het voorvoegsel $6.',
 	'creditssource-creditpage' => 'Geeft naamsvermeldingen voor bronwerken.',
 );
 
