@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Farras"
+        ]
+    },
+    "creditssource-desc": "Menampilkan penghargaan karya sumber di kaki halaman",
+    "creditssource-source-work": "Artikel ini berasal dari artikel $1 pada $2 dalam revisi $3 (UTC). Di sana, artikel ini diterbitkan di bawah lisensi CC-by-sa 3.0. Rincian lebih lanjut dan daftar lengkap kontributor dapat ditemukan di $5. (Kontributor Wikitravel ditandai dengan awalan $4).",
+    "creditssource-historypage": "laman riwayat",
+    "creditssource-creditpage": "Memberikan penghargaan untuk karya sumber."
+}

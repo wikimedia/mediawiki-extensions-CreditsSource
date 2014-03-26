@@ -9,7 +9,7 @@ $wgAutoloadClasses['CreditsSourceAction'] = __DIR__ . '/CreditsSource_body.php';
 $wgAutoloadClasses['CreditsSourceHooks'] = __DIR__ . '/CreditsSource.hooks.php';
 $wgAutoloadClasses['SimpleSourceWork'] = __DIR__ . '/SimpleSourceWork.php';
 
-// extension i18n
+$wgMessagesDirs['CreditsSource'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['CreditsSource'] = __DIR__ . '/CreditsSource.i18n.php';
 
 // hooks
@@ -25,5 +25,5 @@ $wgExtensionCredits['other'][] = array(
 	'url' => 'https://www.mediawiki.org/wiki/Extension:CreditsSource',
 	'descriptionmsg' => 'creditssource-desc',
 	'author' => array( 'Hans Musil', 'Matthias Mullie' ),
-	'version' => '0.3'
+	'version' => '0.4.0'
 );
