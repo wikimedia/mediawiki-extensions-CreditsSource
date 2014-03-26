@@ -1,11 +1,11 @@
 {
     "@metadata": {
         "authors": [
-            "Justincheng12345"
+            "Justincheng12345",
+            "Liuxinyu970226"
         ]
     },
     "creditssource-desc": "於頁面底部顯示作品來源",
-    "creditssource-source-work": "本頁面由$2上$1頁面於$6$7（UTC）的修訂版本衍生而來。該頁面以以共享創意 姓名標示-相同方式分享 3.0 協議發布。更多信息及完整貢獻者名單可於$5查閱。來自Wikitravel的貢獻者會標以$4前缀。",
-    "creditssource-historypage": "歷史頁面",
+    "creditssource-credits": "本頁面來自[$3 $4]頁面於[$1 $2]$8 $9（UTC）之版本。於此，頁面基於CC BY-SA 3.0授權。更多資訊與完整貢獻者列表可於此頁面之[[$5|歷史頁面]]找尋。維客旅行貢獻者用前綴$6標記之。",
     "creditssource-creditpage": "提供原始作品出處。"
 }
