@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Article1"
-        ]
-    },
-    "creditssource-desc": "Sayfa altbilgisinde kaynak iş kredisi görüntüleme",
-    "creditssource-credits": "Bu sayfa sayfa dan türetilmiştir [ $1   $2 ] tarihinde [ $3   $4 ]--dan onun revizyon  $8  ,  $9  (UTC). Orada, CC altında Yayınlanan BY-SA 3.0 lisansı. Daha fazla ayrıntı ve katkıda bulunan can tam listesi ilişkili bulunabilir [[ $5 |history sayfa]]. Wikitravel katkıda bulunanlar tarafından önek olarak işaretlenmiş  $6 .",
-    "creditssource-creditpage": "Sourceworks için kredi verir."
+	"@metadata": {
+		"authors": [
+			"Article1"
+		]
+	},
+	"creditssource-desc": "Sayfa altbilgisinde kaynak iş kredisi görüntüleme",
+	"creditssource-credits": "Bu sayfa sayfa dan türetilmiştir [ $1   $2 ] tarihinde [ $3   $4 ]--dan onun revizyon  $8  ,  $9  (UTC). Orada, CC altında Yayınlanan BY-SA 3.0 lisansı. Daha fazla ayrıntı ve katkıda bulunan can tam listesi ilişkili bulunabilir [[ $5 |history sayfa]]. Wikitravel katkıda bulunanlar tarafından önek olarak işaretlenmiş  $6 .",
+	"creditssource-creditpage": "Sourceworks için kredi verir."
 }

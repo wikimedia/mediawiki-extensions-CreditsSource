@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Justincheng12345",
-            "Liuxinyu970226"
-        ]
-    },
-    "creditssource-desc": "於頁面底部顯示作品來源",
-    "creditssource-credits": "本頁面來自[$3 $4]頁面於[$1 $2]$8 $9（UTC）之版本。於此，頁面基於CC BY-SA 3.0授權。更多資訊與完整貢獻者列表可於此頁面之[[$5|歷史頁面]]找尋。維客旅行貢獻者用前綴$6標記之。",
-    "creditssource-creditpage": "提供原始作品出處。"
+	"@metadata": {
+		"authors": [
+			"Justincheng12345",
+			"Liuxinyu970226"
+		]
+	},
+	"creditssource-desc": "於頁面底部顯示作品來源",
+	"creditssource-credits": "本頁面來自[$3 $4]頁面於[$1 $2]$8 $9（UTC）之版本。於此，頁面基於CC BY-SA 3.0授權。更多資訊與完整貢獻者列表可於此頁面之[[$5|歷史頁面]]找尋。維客旅行貢獻者用前綴$6標記之。",
+	"creditssource-creditpage": "提供原始作品出處。"
 }

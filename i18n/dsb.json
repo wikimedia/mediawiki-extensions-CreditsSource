@@ -1,11 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Michawiki"
-        ]
-    },
-    "creditssource-desc": "Pódawa awtorstwo za žrědłowe źěła w nogowej smužce boka",
-    "creditssource-source-work": "Toś ten bok jo wót boka $1 na $2 w jogo wersiji wót $6 $7 (UTC) wótwóźony. Tam jo se pód licencu CC BY-SA 3.0 wózjawił. Dalšn drobnostki a dopołna lisćina awtorow su na pśisłušnem boku $5. Awtory projekta Wikitravel markěruju se pśez prefiks $4.",
-    "creditssource-historypage": "wersijowa historija",
-    "creditssource-creditpage": "Pódaśa za awtorstwo žrědłowych źěłow."
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"creditssource-desc": "Pódawa awtorstwo za žrědłowe źěła w nogowej smužce boka",
+	"creditssource-creditpage": "Pódaśa za awtorstwo žrědłowych źěłow."
 }
