@@ -10,6 +10,11 @@ class CreditsSourceHooks {
 	public static function loadExtensionSchemaUpdates( DatabaseUpdater $updater ) {
 		$schema = $updater->getDB()->getType();
 
+		if ( $schema === 'sqlite' ) {
+			# MediaWiki can handle the translation
+			$schema = 'mysql';
+		}
+
 		$updater->addExtensionUpdate( array(
 			'addTable',
 			'revsrc',
