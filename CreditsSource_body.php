@@ -39,8 +39,6 @@ class CreditsSourceAction extends FormlessAction {
 	public function getCredits( $maxCredits, $showCreditsIfMax = true ) {
 		$maxCredits = $showCreditsIfMax ? $maxCredits : 9999999;
 
-		wfProfileIn( __METHOD__ );
-
 		$return = '';
 		$pageId = $this->getTitle()->getArticleID();
 		$sourceWorks = SimpleSourceWork::newFromPageId( $pageId, $maxCredits );
@@ -66,8 +64,6 @@ class CreditsSourceAction extends FormlessAction {
 				$lang->userTime( $source->mTs, $user )
 			)->parse();
 		}
-
-		wfProfileOut( __METHOD__ );
 
 		return $return;
 	}
