@@ -1,0 +1,29 @@
+{
+	"name": "CreditsSource",
+	"version": "0.4.0",
+	"author": [
+		"Hans Musil",
+		"Matthias Mullie"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:CreditsSource",
+	"descriptionmsg": "creditssource-desc",
+	"type": "other",
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": [
+			"CreditsSourceHooks::loadExtensionSchemaUpdates"
+		]
+	},
+	"MessagesDirs": {
+		"CreditsSource": [
+			"i18n"
+		]
+	},
+	"Actions": {
+		"credits": "CreditsSourceAction"
+	},
+	"AutoloadClasses": {
+		"CreditsSourceAction": "CreditsSource_body.php",
+		"CreditsSourceHooks": "CreditsSource.hooks.php",
+		"SimpleSourceWork": "SimpleSourceWork.php"
+	}
+}

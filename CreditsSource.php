@@ -1,29 +1,13 @@
 <?php
-
-if ( !defined( 'MEDIAWIKI' ) ) {
-	die( 'This file is a MediaWiki extension, it is not a valid entry point' );
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'CreditsSource' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['CreditsSource'] = __DIR__ . '/i18n';
+	/* wfWarn(
+		'Deprecated PHP entry point used for CreditsSource extension. Please use wfLoadExtension instead, ' .
+		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	); */
+	return;
+} else {
+	die( 'This version of the CreditsSource extension requires MediaWiki 1.25+' );
 }
-
-// autoloader
-$wgAutoloadClasses['CreditsSourceAction'] = __DIR__ . '/CreditsSource_body.php';
-$wgAutoloadClasses['CreditsSourceHooks'] = __DIR__ . '/CreditsSource.hooks.php';
-$wgAutoloadClasses['SimpleSourceWork'] = __DIR__ . '/SimpleSourceWork.php';
-
-$wgMessagesDirs['CreditsSource'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['CreditsSource'] = __DIR__ . '/CreditsSource.i18n.php';
-
-// hooks
-$wgHooks['LoadExtensionSchemaUpdates'][] = 'CreditsSourceHooks::loadExtensionSchemaUpdates';
-
-// action handler
-$wgActions['credits'] = 'CreditsSourceAction';
-
-// credits
-$wgExtensionCredits['other'][] = array(
-	'path' => __FILE__,
-	'name' => 'CreditsSource',
-	'url' => 'https://www.mediawiki.org/wiki/Extension:CreditsSource',
-	'descriptionmsg' => 'creditssource-desc',
-	'author' => array( 'Hans Musil', 'Matthias Mullie' ),
-	'version' => '0.4.0'
-);
