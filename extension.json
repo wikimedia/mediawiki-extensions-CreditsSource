@@ -25,5 +25,6 @@
 		"CreditsSourceAction": "CreditsSource_body.php",
 		"CreditsSourceHooks": "CreditsSource.hooks.php",
 		"SimpleSourceWork": "SimpleSourceWork.php"
-	}
+	},
+	"manifest_version": 1
 }
