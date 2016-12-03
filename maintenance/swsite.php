@@ -30,6 +30,7 @@ class CreditsSource_swsite extends Maintenance {
 	public function __construct() {
 		parent::__construct();
 		$this->mDescription = 'Fix swauthor & srcwork data after swsite introduction';
+		$this->requireExtension( 'CreditsSource' );
 	}
 
 	/**
