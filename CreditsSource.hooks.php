@@ -15,19 +15,19 @@ class CreditsSourceHooks {
 			$schema = 'mysql';
 		}
 
-		$updater->addExtensionUpdate( array(
+		$updater->addExtensionUpdate( [
 			'addTable',
 			'revsrc',
 			__DIR__ . "/schema/$schema/CreditsSource.sql",
 			true
-		) );
+		] );
 
-		$updater->addExtensionUpdate( array(
+		$updater->addExtensionUpdate( [
 			'addTable',
 			'swsite',
 			__DIR__ . "/schema/$schema/swsite.sql",
 			true
-		) );
+		] );
 
 		return true;
 	}

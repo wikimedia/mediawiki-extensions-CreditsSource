@@ -28,7 +28,7 @@ class CreditsSourceAction extends FormlessAction {
 			);
 		}
 
-		return Html::rawElement( 'div', array( 'id' => 'mw-credits' ), $content );
+		return Html::rawElement( 'div', [ 'id' => 'mw-credits' ], $content );
 	}
 
 	/**
@@ -56,7 +56,7 @@ class CreditsSourceAction extends FormlessAction {
 				$source->mSiteUri,
 				$source->mSiteName,
 				// history link internal (relative) url
-				$this->getTitle()->getLocalURL( array( 'action' => 'history' ) ),
+				$this->getTitle()->getLocalURL( [ 'action' => 'history' ] ),
 
 				$source->mSiteShortName,
 				$lang->userTimeAndDate( $source->mTs, $user ),

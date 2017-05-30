@@ -20,31 +20,31 @@ class SimpleSourceWork {
 		$dbr = wfGetDB( DB_SLAVE );
 
 		$rows = $dbr->select(
-			array( 'revision', 'revsrc', 'srcwork', 'swsite' ),
-			array(
+			[ 'revision', 'revsrc', 'srcwork', 'swsite' ],
+			[
 				'srcwork_id', 'srcwork_uri_part', 'srcwork_date', 'srcwork_title',
 				'sws_name', 'sws_short_name', 'sws_site_uri', 'sws_work_uri'
-			),
-			array( 'rev_page' => $pageId ),
+			],
+			[ 'rev_page' => $pageId ],
 			__METHOD__,
-			array( 'LIMIT' => $limit ),
-			array(
-				'revsrc' => array(
+			[ 'LIMIT' => $limit ],
+			[
+				'revsrc' => [
 					'INNER JOIN',
-					array( 'revsrc_revid = rev_id' )
-				),
-				'srcwork' => array(
+					[ 'revsrc_revid = rev_id' ]
+				],
+				'srcwork' => [
 					'INNER JOIN',
-					array( 'srcwork_id = revsrc_srcworkid' )
-				),
-				'swsite' => array(
+					[ 'srcwork_id = revsrc_srcworkid' ]
+				],
+				'swsite' => [
 					'LEFT JOIN',
-					array( 'srcwork_site = sws_id' )
-				)
-			)
+					[ 'srcwork_site = sws_id' ]
+				]
+			]
 		);
 
-		$sources = array();
+		$sources = [];
 		foreach ( $rows as $row ) {
 			$me = new self;
 			$me->mId = $row->srcwork_id;
