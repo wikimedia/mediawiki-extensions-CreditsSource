@@ -59,7 +59,7 @@ class CreditsSource_swsite extends Maintenance {
 	 */
 	public function refreshTable( $table, $prefix ) {
 		$dbw = wfGetDB( DB_MASTER );
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 
 		$rows = $dbr->select(
 			[ 'swsite', $table ],

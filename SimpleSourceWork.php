@@ -17,7 +17,7 @@ class SimpleSourceWork {
 	 * @return array
 	 */
 	protected static function loadFromDb( $pageId, $limit = 10 ) {
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 
 		$rows = $dbr->select(
 			[ 'revision', 'revsrc', 'srcwork', 'swsite' ],
