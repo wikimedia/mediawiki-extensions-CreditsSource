@@ -4,7 +4,7 @@ class CreditsSourceHooks {
 	/**
 	 * LoadExtensionSchemaUpdates hook
 	 *
-	 * @param $updater DatabaseUpdater
+	 * @param DatabaseUpdater $updater
 	 * @return bool
 	 */
 	public static function loadExtensionSchemaUpdates( DatabaseUpdater $updater ) {
