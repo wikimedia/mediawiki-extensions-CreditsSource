@@ -23,9 +23,9 @@
 		"credits": "CreditsSourceAction"
 	},
 	"AutoloadClasses": {
-		"CreditsSourceAction": "CreditsSource_body.php",
-		"CreditsSourceHooks": "CreditsSource.hooks.php",
-		"SimpleSourceWork": "SimpleSourceWork.php"
+		"CreditsSourceAction": "includes/CreditsSourceAction.php",
+		"CreditsSourceHooks": "includes/CreditsSourceHooks.php",
+		"SimpleSourceWork": "includes/SimpleSourceWork.php"
 	},
 	"manifest_version": 1
 }

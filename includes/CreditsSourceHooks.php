@@ -18,14 +18,14 @@ class CreditsSourceHooks {
 		$updater->addExtensionUpdate( [
 			'addTable',
 			'revsrc',
-			__DIR__ . "/schema/$schema/CreditsSource.sql",
+			__DIR__ . "/../schema/$schema/CreditsSource.sql",
 			true
 		] );
 
 		$updater->addExtensionUpdate( [
 			'addTable',
 			'swsite',
-			__DIR__ . "/schema/$schema/swsite.sql",
+			__DIR__ . "/../schema/$schema/swsite.sql",
 			true
 		] );
 
