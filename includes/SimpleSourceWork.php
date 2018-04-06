@@ -5,7 +5,7 @@ class SimpleSourceWork {
 
 	/**
 	 * @param string|int $pageId
-	 * @return null|SimpleSourceWork
+	 * @return SimpleSourceWork[]
 	 */
 	public static function newFromPageId( $pageId ) {
 		return self::loadFromDb( $pageId );
@@ -13,8 +13,8 @@ class SimpleSourceWork {
 
 	/**
 	 * @param string|int $pageId
-	 * @param int[optional] $limit
-	 * @return array
+	 * @param int $limit
+	 * @return SimpleSourceWork[]
 	 */
 	protected static function loadFromDb( $pageId, $limit = 10 ) {
 		$dbr = wfGetDB( DB_REPLICA );

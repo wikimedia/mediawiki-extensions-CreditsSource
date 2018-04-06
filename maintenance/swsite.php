@@ -20,7 +20,7 @@ class CreditsSource_swsite extends Maintenance {
 	/**
 	 * The number of entries completed
 	 *
-	 * @var int
+	 * @var int[]
 	 */
 	private $completeCount = [];
 
