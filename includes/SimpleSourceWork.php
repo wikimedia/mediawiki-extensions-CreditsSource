@@ -5,15 +5,16 @@ class SimpleSourceWork {
 
 	/**
 	 * @param string|int $pageId
+	 * @param int $limit Limits the max length of the returned array
 	 * @return SimpleSourceWork[]
 	 */
-	public static function newFromPageId( $pageId ) {
-		return self::loadFromDb( $pageId );
+	public static function newFromPageId( $pageId, $limit = 10 ) {
+		return self::loadFromDb( $pageId, $limit );
 	}
 
 	/**
 	 * @param string|int $pageId
-	 * @param int $limit
+	 * @param int $limit Limits the max length of the returned array
 	 * @return SimpleSourceWork[]
 	 */
 	protected static function loadFromDb( $pageId, $limit = 10 ) {
