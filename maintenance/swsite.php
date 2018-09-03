@@ -64,8 +64,8 @@ class CreditsSource_swsite extends Maintenance {
 		$rows = $dbr->select(
 			[ 'swsite', $table ],
 			[
-				$prefix.'_id',
-				$prefix.'_uri_part',
+				$prefix . '_id',
+				$prefix . '_uri_part',
 				'sws_id',
 				'sws_work_uri',
 			],
@@ -89,10 +89,10 @@ class CreditsSource_swsite extends Maintenance {
 			$dbw->update(
 				$table,
 				[
-					$prefix.'_uri_part' => str_replace( $row->sws_work_uri, '', $row->{$prefix.'_uri_part'} ),
-					$prefix.'_site' => $row->sws_id
+					$prefix . '_uri_part' => str_replace( $row->sws_work_uri, '', $row->{$prefix . '_uri_part'} ),
+					$prefix . '_site' => $row->sws_id
 				],
-				[ $prefix.'_id' => $row->{$prefix . '_id'} ]
+				[ $prefix . '_id' => $row->{$prefix . '_id'} ]
 			);
 
 			$this->completeCount[$table]++;
