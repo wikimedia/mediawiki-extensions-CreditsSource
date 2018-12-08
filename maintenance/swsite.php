@@ -9,7 +9,7 @@ require_once __DIR__ . '/../../../maintenance/Maintenance.php';
  * @author     Matthias Mullie <mmullie@wikimedia.org>
  * @version    $Id$
  */
-class CreditsSource_swsite extends Maintenance {
+class Swsite extends Maintenance {
 	/**
 	 * Batch size
 	 *
@@ -103,5 +103,5 @@ class CreditsSource_swsite extends Maintenance {
 	}
 }
 
-$maintClass = "CreditsSource_swsite";
+$maintClass = Swsite::class;
 require_once RUN_MAINTENANCE_IF_MAIN;
