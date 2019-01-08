@@ -7,6 +7,6 @@
 		]
 	},
 	"creditssource-desc": "Mostrar os créditos de autoria da obra original no rodapé da página",
-	"creditssource-credits": "Esta página é derivada da página [$1 $2] em [$3 $4], em sua revisão de $8 às $9 (UTC). Lá, ele foi publicado sob a licença CC BY-SA 3.0. Mais informações e a lista completa de contribuintes podem ser encontradas no [[$5|histórico da página]]. Os colaboradores do Wikivoyage estão marcados com o prefixo $6.",
+	"creditssource-credits": "Esta página é derivada da página [$1 $2] do ''site'' [$3 $4], na sua revisão de $8 às $9 (UTC). Na origem, ela foi publicada com a licença CC BY-SA 3.0. Pode encontrar mais informações e a lista completa de contribuidores no [[$5|histórico da página]]. Os colaboradores da Wikitravel estão marcados com o prefixo $6.",
 	"creditssource-creditpage": "Atribui os créditos de autoria das obras fonte."
 }
