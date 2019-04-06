@@ -7,7 +7,6 @@ require_once __DIR__ . '/../../../maintenance/Maintenance.php';
  *
  * @package    CreditsSource
  * @author     Matthias Mullie <mmullie@wikimedia.org>
- * @version    $Id$
  */
 class Swsite extends Maintenance {
 	/**
