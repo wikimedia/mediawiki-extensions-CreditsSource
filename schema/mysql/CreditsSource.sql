@@ -101,7 +101,7 @@ CREATE TABLE IF NOT EXISTS /*_*/revsrc (
   -- The user who has made the attribution.
   revsrc_user         int unsigned NOT NULL,
   revsrc_user_text    text NOT NULL,
-  revsrc_comment      text NOT NULL DEFAULT ''
+  revsrc_comment      text NOT NULL
 ) /*$wgDBTableOptions*/;
 CREATE UNIQUE INDEX /*i*/revsrc_rs_unique ON /*_*/revsrc (revsrc_revid, revsrc_srcworkid);
 CREATE INDEX /*i*/revsrc_revid_index ON /*_*/revsrc (revsrc_revid);
