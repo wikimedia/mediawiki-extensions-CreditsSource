@@ -33,7 +33,7 @@ class CreditsSourceAction extends FormlessAction {
 
 	/**
 	 * @param int $maxCredits The max amount of credits to display
-	 * @param int $showCreditsIfMax Credit only the top authors if there are too many
+	 * @param bool $showCreditsIfMax Credit only the top authors if there are too many
 	 * @return string
 	 */
 	public function getCredits( $maxCredits, $showCreditsIfMax = true ) {
