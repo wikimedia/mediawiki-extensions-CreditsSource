@@ -10,9 +10,7 @@
 	"descriptionmsg": "creditssource-desc",
 	"type": "other",
 	"Hooks": {
-		"LoadExtensionSchemaUpdates": [
-			"CreditsSourceHooks::loadExtensionSchemaUpdates"
-		]
+		"LoadExtensionSchemaUpdates": "CreditsSourceHooks::loadExtensionSchemaUpdates"
 	},
 	"MessagesDirs": {
 		"CreditsSource": [

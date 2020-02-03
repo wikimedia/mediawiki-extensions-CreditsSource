@@ -3,7 +3,8 @@
 require_once __DIR__ . '/../../../maintenance/Maintenance.php';
 
 /**
- * Fix swauthor & srcwork data after swsite introduction
+ * Update the srcwork and swauthor (for a "source work" and it's author) database tables after the
+ * swsite table was introduced. Both contain a …_site foreign key to swsite.sws_id now.
  *
  * @package    CreditsSource
  * @author     Matthias Mullie <mmullie@wikimedia.org>

@@ -5,7 +5,6 @@ class CreditsSourceHooks {
 	 * LoadExtensionSchemaUpdates hook
 	 *
 	 * @param DatabaseUpdater $updater
-	 * @return bool
 	 */
 	public static function loadExtensionSchemaUpdates( DatabaseUpdater $updater ) {
 		$schema = $updater->getDB()->getType();
@@ -28,7 +27,5 @@ class CreditsSourceHooks {
 			__DIR__ . "/../schema/$schema/swsite.sql",
 			true
 		] );
-
-		return true;
 	}
 }

@@ -2,21 +2,21 @@
 
 class CreditsSourceAction extends FormlessAction {
 	/**
-	 * @return String
+	 * @return string
 	 */
 	public function getName() {
 		return 'credits';
 	}
 
 	/**
-	 * @return String
+	 * @return string
 	 */
 	protected function getDescription() {
 		return $this->msg( 'creditssource-creditpage' )->escaped();
 	}
 
 	/**
-	 * @return String
+	 * @return string
 	 */
 	public function onView() {
 		if ( $this->page->getID() == 0 ) {
