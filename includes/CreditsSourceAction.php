@@ -19,7 +19,7 @@ class CreditsSourceAction extends FormlessAction {
 	 * @return string
 	 */
 	public function onView() {
-		if ( $this->page->getID() == 0 ) {
+		if ( $this->getWikiPage()->getID() == 0 ) {
 			$content = $this->msg( 'nocredits' )->parse();
 		} else {
 			global $wgMaxCredits, $wgShowCreditsIfMax;
