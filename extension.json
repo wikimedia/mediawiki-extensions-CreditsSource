@@ -9,6 +9,9 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:CreditsSource",
 	"descriptionmsg": "creditssource-desc",
 	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
 	"Hooks": {
 		"LoadExtensionSchemaUpdates": "CreditsSourceHooks::loadExtensionSchemaUpdates"
 	},
@@ -25,5 +28,5 @@
 		"CreditsSourceHooks": "includes/CreditsSourceHooks.php",
 		"SimpleSourceWork": "includes/SimpleSourceWork.php"
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
