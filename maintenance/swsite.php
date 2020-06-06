@@ -96,7 +96,8 @@ class Swsite extends Maintenance {
 					$prefix . '_uri_part' => str_replace( $row->sws_work_uri, '', $row->{$prefix . '_uri_part'} ),
 					$prefix . '_site' => $row->sws_id
 				],
-				[ $prefix . '_id' => $row->{$prefix . '_id'} ]
+				[ $prefix . '_id' => $row->{$prefix . '_id'} ],
+				__METHOD__
 			);
 
 			$this->completeCount[$table]++;
