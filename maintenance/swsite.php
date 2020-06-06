@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 require_once __DIR__ . '/../../../maintenance/Maintenance.php';
 
 /**
@@ -37,12 +39,14 @@ class Swsite extends Maintenance {
 	 * Execute the script
 	 */
 	public function execute() {
+		$lbFactory = MediaWikiServices::getInstance()->getDBLoadBalancerFactory();
+
 		foreach ( [ 'swauthor' => 'swa', 'srcwork' => 'srcwork' ] as $table => $prefix ) {
 			$this->output( "Updating $table entries.\n" );
 			$this->completeCount[$table] = 0;
 
 			while ( $this->refreshTable( $table, $prefix ) ) {
-				wfWaitForSlaves();
+				$lbFactory->waitForReplication();
 			}
 
 			$count = $this->completeCount[$table];
