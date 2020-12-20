@@ -1,7 +1,20 @@
 <?php
 
 class SimpleSourceWork {
-	public $mId, $mUri, $mTs, $mTitle, $mSiteName, $mSiteShortName, $mSiteUri;
+	/** @var string|null */
+	public $mId;
+	/** @var string|null */
+	public $mUri;
+	/** @var string|null */
+	public $mTs;
+	/** @var string|null */
+	public $mTitle;
+	/** @var string|null */
+	public $mSiteName;
+	/** @var string|null */
+	public $mSiteShortName;
+	/** @var string|null */
+	public $mSiteUri;
 
 	/**
 	 * @param string|int $pageId
