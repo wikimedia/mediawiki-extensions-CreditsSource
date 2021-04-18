@@ -99,7 +99,7 @@ CREATE TABLE revsrc (
   -- A MW timestamp when the attribution was made.
   revsrc_timestamp  TIMESTAMPTZ NOT NULL,
   -- The user who has made the attribution.
-  revsrc_user       INTEGER NOT NULL REFERENCES mwuser(user_id) ON DELETE RESTRICT,
+  revsrc_user       INTEGER NOT NULL,
   revsrc_user_text  TEXT NOT NULL,
   revsrc_comment    TEXT NOT NULL DEFAULT ''
 );

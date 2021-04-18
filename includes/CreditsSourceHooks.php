@@ -7,25 +7,41 @@ class CreditsSourceHooks {
 	 * @param DatabaseUpdater $updater
 	 */
 	public static function loadExtensionSchemaUpdates( DatabaseUpdater $updater ) {
-		$schema = $updater->getDB()->getType();
+		$dbType = $updater->getDB()->getType();
+		$base = dirname( __DIR__, 1 ) . '/schema';
 
-		if ( $schema === 'sqlite' ) {
-			# MediaWiki can handle the translation
-			$schema = 'mysql';
+		if ( $dbType === 'postgres' ) {
+			$updater->addExtensionUpdate( [
+				'addTable',
+				'revsrc',
+				"$base/postgres/CreditsSource.sql",
+				true
+			] );
+
+			$updater->addExtensionUpdate( [
+				'addTable',
+				'swsite',
+				"$base/postgres/swsite.sql",
+				true
+			] );
+			$updater->addExtensionUpdate( [
+				'dropFkey',
+				'revsrc', 'revsrc_user'
+			] );
+		} else {
+			$updater->addExtensionUpdate( [
+				'addTable',
+				'revsrc',
+				"$base/mysql/CreditsSource.sql",
+				true
+			] );
+
+			$updater->addExtensionUpdate( [
+				'addTable',
+				'swsite',
+				"$base/mysql/swsite.sql",
+				true
+			] );
 		}
-
-		$updater->addExtensionUpdate( [
-			'addTable',
-			'revsrc',
-			__DIR__ . "/../schema/$schema/CreditsSource.sql",
-			true
-		] );
-
-		$updater->addExtensionUpdate( [
-			'addTable',
-			'swsite',
-			__DIR__ . "/../schema/$schema/swsite.sql",
-			true
-		] );
 	}
 }
