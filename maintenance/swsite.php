@@ -62,7 +62,7 @@ class Swsite extends Maintenance {
 	 * @return bool
 	 */
 	public function refreshTable( $table, $prefix ) {
-		$dbw = wfGetDB( DB_MASTER );
+		$dbw = wfGetDB( DB_PRIMARY );
 		$dbr = wfGetDB( DB_REPLICA );
 
 		$rows = $dbr->select(
