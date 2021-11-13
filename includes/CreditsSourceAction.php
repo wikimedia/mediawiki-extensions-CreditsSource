@@ -55,8 +55,8 @@ class CreditsSourceAction extends FormlessAction {
 				// site link (absolute) url + title
 				$source->mSiteUri,
 				$source->mSiteName,
-				// history link internal (relative) url
-				$this->getTitle()->getLocalURL( [ 'action' => 'history' ] ),
+				// history link (absolute) url
+				$this->getTitle()->getFullURL( [ 'action' => 'history' ] ),
 
 				$source->mSiteShortName,
 				$lang->userTimeAndDate( $source->mTs, $user ),
