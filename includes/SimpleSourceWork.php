@@ -1,5 +1,7 @@
 <?php
 
+namespace MediaWiki\Extension\CreditSource;
+
 class SimpleSourceWork {
 	/** @var string|null */
 	public $mId;

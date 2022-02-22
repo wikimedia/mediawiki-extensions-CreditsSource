@@ -13,7 +13,7 @@
 		"MediaWiki": ">= 1.35.3"
 	},
 	"Hooks": {
-		"LoadExtensionSchemaUpdates": "CreditsSourceHooks::loadExtensionSchemaUpdates"
+		"LoadExtensionSchemaUpdates": "MediaWiki\\Extension\\CreditSource\\Hooks::loadExtensionSchemaUpdates"
 	},
 	"MessagesDirs": {
 		"CreditsSource": [
@@ -21,12 +21,10 @@
 		]
 	},
 	"Actions": {
-		"credits": "CreditsSourceAction"
+		"credits": "MediaWiki\\Extension\\CreditSource\\CreditsSourceAction"
 	},
-	"AutoloadClasses": {
-		"CreditsSourceAction": "includes/CreditsSourceAction.php",
-		"CreditsSourceHooks": "includes/CreditsSourceHooks.php",
-		"SimpleSourceWork": "includes/SimpleSourceWork.php"
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\CreditSource\\": "includes/"
 	},
 	"manifest_version": 2
 }

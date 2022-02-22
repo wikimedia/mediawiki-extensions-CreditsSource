@@ -1,5 +1,10 @@
 <?php
 
+namespace MediaWiki\Extension\CreditSource;
+
+use FormlessAction;
+use Html;
+
 class CreditsSourceAction extends FormlessAction {
 	/**
 	 * @return string

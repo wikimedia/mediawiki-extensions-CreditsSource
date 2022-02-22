@@ -1,6 +1,10 @@
 <?php
 
-class CreditsSourceHooks {
+namespace MediaWiki\Extension\CreditSource;
+
+use DatabaseUpdater;
+
+class Hooks {
 	/**
 	 * LoadExtensionSchemaUpdates hook
 	 *
