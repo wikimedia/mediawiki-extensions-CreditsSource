@@ -22,12 +22,7 @@ class Hooks {
 				true
 			] );
 
-			$updater->addExtensionUpdate( [
-				'addTable',
-				'swsite',
-				"$base/postgres/swsite.sql",
-				true
-			] );
+			// 1.37
 			$updater->addExtensionUpdate( [
 				'dropFkey',
 				'revsrc', 'revsrc_user'
@@ -37,13 +32,6 @@ class Hooks {
 				'addTable',
 				'revsrc',
 				"$base/mysql/CreditsSource.sql",
-				true
-			] );
-
-			$updater->addExtensionUpdate( [
-				'addTable',
-				'swsite',
-				"$base/mysql/swsite.sql",
 				true
 			] );
 		}
