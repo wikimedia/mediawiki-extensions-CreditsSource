@@ -1,0 +1,271 @@
+[
+	{
+		"name": "swsite",
+		"columns": [
+			{
+				"name": "sws_id",
+				"comment": "The site's ID.",
+				"type": "integer",
+				"options": { "autoincrement": true, "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "sws_name",
+				"type": "binary",
+				"options": { "notnull": true, "length": 255 }
+			},
+			{
+				"name": "sws_short_name",
+				"type": "binary",
+				"options": { "notnull": true, "length": 255 }
+			},
+			{
+				"name": "sws_site_uri",
+				"type": "binary",
+				"options": { "notnull": true, "length": 255 }
+			},
+			{
+				"name": "sws_user_uri",
+				"type": "binary",
+				"options": { "notnull": true, "length": 255 }
+			},
+			{
+				"name": "sws_work_uri",
+				"type": "binary",
+				"options": { "notnull": true, "length": 255 }
+			}
+		],
+		"indexes": [
+			{
+				"name": "swsite_name",
+				"columns": [ "sws_name" ],
+				"unique": true
+			},
+			{
+				"name": "swsite_short_name",
+				"columns": [ "sws_short_name" ],
+				"unique": true
+			},
+			{
+				"name": "swsite_site_uri",
+				"columns": [ "sws_site_uri" ],
+				"unique": true
+			},
+			{
+				"name": "swsite_user_uri",
+				"columns": [ "sws_user_uri" ],
+				"unique": true
+			},
+			{
+				"name": "swsite_work_uri",
+				"columns": [ "sws_work_uri" ],
+				"unique": true
+			}
+		],
+		"pk": [ "sws_id" ]
+	},
+	{
+		"name": "swauthor",
+		"columns": [
+			{
+				"name": "swa_id",
+				"comment": "The author's ID.",
+				"type": "integer",
+				"options": { "autoincrement": true, "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "swa_site",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "swa_user_name",
+				"type": "binary",
+				"options": { "notnull": false, "length": 255 }
+			},
+			{
+				"name": "swa_real_name",
+				"type": "binary",
+				"options": { "notnull": false, "length": 255 }
+			},
+			{
+				"name": "swa_uri_part",
+				"comment": "Concatenated with swsite.sws_user_uri, should identify the work unambiguously.",
+				"type": "binary",
+				"options": { "notnull": true, "length": 255 }
+			}
+		],
+		"indexes": [
+			{
+				"name": "swauthor_namesite_unique",
+				"columns": [ "swa_site", "swa_user_name" ],
+				"unique": true
+			}
+		],
+		"pk": [ "swa_id" ]
+	},
+	{
+		"name": "srcwork",
+		"comment": "All RDF information about a source work is stored here, one source work per row. A source work is identified either by its ID or by the about-date pair.",
+		"columns": [
+			{
+				"name": "srcwork_id",
+				"comment": "A unique ID for each source work.",
+				"type": "integer",
+				"options": { "autoincrement": true, "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "srcwork_site",
+				"comment": "The site's id.",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "srcwork_creator",
+				"comment": "The creator's id.",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "srcwork_date",
+				"comment": "Extracted from RDF. The version data of the work, stored as MW timestamp.",
+				"type": "mwtimestamp",
+				"options": { "notnull": true }
+			},
+			{
+				"name": "srcwork_title",
+				"comment": "Usefull or not? Intended to be some short form of about usable for listings.",
+				"type": "binary",
+				"options": { "notnull": true, "length": 255, "default": "" }
+			},
+			{
+				"name": "srcwork_uri_part",
+				"comment": "Concatenated with swsite.sws_work_uri, should identify the work unambiguously.",
+				"type": "binary",
+				"options": { "notnull": true, "length": 255 }
+			}
+		],
+		"indexes": [
+			{
+				"name": "srcwork_uridate_unique",
+				"comment": "Identifies the work if id not known.",
+				"columns": [ "srcwork_site", "srcwork_uri_part", "srcwork_date" ],
+				"unique": true
+			}
+		],
+		"pk": [ "srcwork_id" ]
+	},
+	{
+		"name": "swauthor_links",
+		"columns": [
+			{
+				"name": "swal_srcworkid",
+				"comment": "The source work's ID as used in 'srcwork.srcwork_id'.",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "swal_authorid",
+				"comment": "The source work's author's ID as used in 'swauthor.swa_id'.",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			}
+		],
+		"indexes": [
+			{
+				"name": "swal_srcwork_author_unique",
+				"columns": [ "swal_srcworkid", "swal_authorid" ],
+				"unique": true
+			}
+		],
+		"pk": []
+	},
+	{
+		"name": "swsource_links",
+		"columns": [
+			{
+				"name": "swsl_workid",
+				"comment": "The source work's ID as used in 'srcwork.srcwork_id'.",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "swsl_sourceid",
+				"comment": "The source work's own source ID as used in 'srcwork.srcwork_id'.",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "swsl_comment",
+				"type": "binary",
+				"options": { "notnull": true, "length": 255, "default": "" }
+			}
+		],
+		"indexes": [
+			{
+				"name": "swsl_work_source_unique",
+				"columns": [ "swsl_workid", "swsl_sourceid" ],
+				"unique": true
+			}
+		],
+		"pk": []
+	},
+	{
+		"name": "revsrc",
+		"comment": "This table links source works to revisions. Only the first revision of an article that is derived from a source should be linked to its source. Each revision may have more than one source work. Vice versa, one source work may be attributed by more than one revision. Each line holds one revision-source pair plus some additional info. Thus, we use 'revsrc_rs' as unique KEY.",
+		"columns": [
+			{
+				"name": "revsrc_revid",
+				"comment": "The revision's ID as used in 'revision.rev_id'.",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "revsrc_srcworkid",
+				"comment": "The source work's ID as used in 'srcwork.srcwork_id'.",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "revsrc_timestamp",
+				"comment": "A MW timestamp when the attribution was made.",
+				"type": "mwtimestamp",
+				"options": { "notnull": true }
+			},
+			{
+				"name": "revsrc_user",
+				"comment": "The user who has made the attribution.",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "revsrc_user_text",
+				"comment": "The user who has made the attribution.",
+				"type": "text",
+				"options": { "notnull": true, "length": 65530 }
+			},
+			{
+				"name": "revsrc_comment",
+				"type": "text",
+				"options": { "notnull": true, "length": 65530 }
+			}
+		],
+		"indexes": [
+			{
+				"name": "revsrc_rs_unique",
+				"columns": [ "revsrc_revid", "revsrc_srcworkid" ],
+				"unique": true
+			},
+			{
+				"name": "revsrc_revid_index",
+				"columns": [ "revsrc_revid" ],
+				"unique": false
+			},
+			{
+				"name": "revsrc_timestamp_index",
+				"columns": [ "revsrc_timestamp" ],
+				"unique": false
+			}
+		],
+		"pk": []
+	}
+]
