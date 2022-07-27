@@ -70,5 +70,12 @@ class Hooks {
 				[ 'dropDefault', 'revsrc', 'revsrc_comment' ]
 			);
 		}
+
+		// 1.40
+		$updater->dropExtensionIndex(
+			'swauthor_links',
+			'swal_srcwork_author_unique',
+			"$base/$dbType/patch-swauthor_links-unique-to-pk.sql"
+		);
 	}
 }

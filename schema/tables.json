@@ -170,14 +170,8 @@
 				"options": { "notnull": true, "unsigned": true }
 			}
 		],
-		"indexes": [
-			{
-				"name": "swal_srcwork_author_unique",
-				"columns": [ "swal_srcworkid", "swal_authorid" ],
-				"unique": true
-			}
-		],
-		"pk": []
+		"indexes": [],
+		"pk": [ "swal_srcworkid", "swal_authorid" ]
 	},
 	{
 		"name": "swsource_links",

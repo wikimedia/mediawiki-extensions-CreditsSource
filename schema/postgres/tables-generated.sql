@@ -51,10 +51,10 @@ CREATE UNIQUE INDEX srcwork_uridate_unique ON srcwork (
 
 
 CREATE TABLE swauthor_links (
-  swal_srcworkid INT NOT NULL, swal_authorid INT NOT NULL
+  swal_srcworkid INT NOT NULL,
+  swal_authorid INT NOT NULL,
+  PRIMARY KEY(swal_srcworkid, swal_authorid)
 );
-
-CREATE UNIQUE INDEX swal_srcwork_author_unique ON swauthor_links (swal_srcworkid, swal_authorid);
 
 
 CREATE TABLE swsource_links (
