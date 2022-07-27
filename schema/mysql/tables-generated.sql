@@ -65,7 +65,7 @@ CREATE TABLE /*_*/revsrc (
   revsrc_user INT UNSIGNED NOT NULL,
   revsrc_user_text TEXT NOT NULL,
   revsrc_comment TEXT NOT NULL,
-  UNIQUE INDEX revsrc_rs_unique (revsrc_revid, revsrc_srcworkid),
   INDEX revsrc_revid_index (revsrc_revid),
-  INDEX revsrc_timestamp_index (revsrc_timestamp)
+  INDEX revsrc_timestamp_index (revsrc_timestamp),
+  PRIMARY KEY(revsrc_revid, revsrc_srcworkid)
 ) /*$wgDBTableOptions*/;

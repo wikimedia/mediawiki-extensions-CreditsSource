@@ -1,0 +1,115 @@
+{
+	"comment": "Convert unique index to primary key (T312277)",
+	"before": {
+		"name": "revsrc",
+		"comment": "This table links source works to revisions. Only the first revision of an article that is derived from a source should be linked to its source. Each revision may have more than one source work. Vice versa, one source work may be attributed by more than one revision. Each line holds one revision-source pair plus some additional info. Thus, we use 'revsrc_rs' as unique KEY.",
+		"columns": [
+			{
+				"name": "revsrc_revid",
+				"comment": "The revision's ID as used in 'revision.rev_id'.",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "revsrc_srcworkid",
+				"comment": "The source work's ID as used in 'srcwork.srcwork_id'.",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "revsrc_timestamp",
+				"comment": "A MW timestamp when the attribution was made.",
+				"type": "mwtimestamp",
+				"options": { "notnull": true }
+			},
+			{
+				"name": "revsrc_user",
+				"comment": "The user who has made the attribution.",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "revsrc_user_text",
+				"comment": "The user who has made the attribution.",
+				"type": "text",
+				"options": { "notnull": true, "length": 65530 }
+			},
+			{
+				"name": "revsrc_comment",
+				"type": "text",
+				"options": { "notnull": true, "length": 65530 }
+			}
+		],
+		"indexes": [
+			{
+				"name": "revsrc_rs_unique",
+				"columns": [ "revsrc_revid", "revsrc_srcworkid" ],
+				"unique": true
+			},
+			{
+				"name": "revsrc_revid_index",
+				"columns": [ "revsrc_revid" ],
+				"unique": false
+			},
+			{
+				"name": "revsrc_timestamp_index",
+				"columns": [ "revsrc_timestamp" ],
+				"unique": false
+			}
+		]
+	},
+	"after": {
+		"name": "revsrc",
+		"comment": "This table links source works to revisions. Only the first revision of an article that is derived from a source should be linked to its source. Each revision may have more than one source work. Vice versa, one source work may be attributed by more than one revision. Each line holds one revision-source pair plus some additional info. Thus, we use 'revsrc_rs' as unique KEY.",
+		"columns": [
+			{
+				"name": "revsrc_revid",
+				"comment": "The revision's ID as used in 'revision.rev_id'.",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "revsrc_srcworkid",
+				"comment": "The source work's ID as used in 'srcwork.srcwork_id'.",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "revsrc_timestamp",
+				"comment": "A MW timestamp when the attribution was made.",
+				"type": "mwtimestamp",
+				"options": { "notnull": true }
+			},
+			{
+				"name": "revsrc_user",
+				"comment": "The user who has made the attribution.",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "revsrc_user_text",
+				"comment": "The user who has made the attribution.",
+				"type": "text",
+				"options": { "notnull": true, "length": 65530 }
+			},
+			{
+				"name": "revsrc_comment",
+				"type": "text",
+				"options": { "notnull": true, "length": 65530 }
+			}
+		],
+		"indexes": [
+			{
+				"name": "revsrc_revid_index",
+				"columns": [ "revsrc_revid" ],
+				"unique": false
+			},
+			{
+				"name": "revsrc_timestamp_index",
+				"columns": [ "revsrc_timestamp" ],
+				"unique": false
+			}
+		],
+		"pk": [ "revsrc_revid", "revsrc_srcworkid" ]
+	}
+}

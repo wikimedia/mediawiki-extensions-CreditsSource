@@ -61,11 +61,12 @@ CREATE TABLE /*_*/swsource_links (
 CREATE TABLE /*_*/revsrc (
   revsrc_revid INTEGER UNSIGNED NOT NULL,
   revsrc_srcworkid INTEGER UNSIGNED NOT NULL,
-  revsrc_timestamp BLOB NOT NULL, revsrc_user INTEGER UNSIGNED NOT NULL,
-  revsrc_user_text CLOB NOT NULL, revsrc_comment CLOB NOT NULL
+  revsrc_timestamp BLOB NOT NULL,
+  revsrc_user INTEGER UNSIGNED NOT NULL,
+  revsrc_user_text CLOB NOT NULL,
+  revsrc_comment CLOB NOT NULL,
+  PRIMARY KEY(revsrc_revid, revsrc_srcworkid)
 );
-
-CREATE UNIQUE INDEX revsrc_rs_unique ON /*_*/revsrc (revsrc_revid, revsrc_srcworkid);
 
 CREATE INDEX revsrc_revid_index ON /*_*/revsrc (revsrc_revid);
 
