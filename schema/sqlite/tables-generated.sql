@@ -53,10 +53,9 @@ CREATE TABLE /*_*/swauthor_links (
 CREATE TABLE /*_*/swsource_links (
   swsl_workid INTEGER UNSIGNED NOT NULL,
   swsl_sourceid INTEGER UNSIGNED NOT NULL,
-  swsl_comment BLOB DEFAULT '' NOT NULL
+  swsl_comment BLOB DEFAULT '' NOT NULL,
+  PRIMARY KEY(swsl_workid, swsl_sourceid)
 );
-
-CREATE UNIQUE INDEX swsl_work_source_unique ON /*_*/swsource_links (swsl_workid, swsl_sourceid);
 
 
 CREATE TABLE /*_*/revsrc (

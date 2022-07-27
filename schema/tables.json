@@ -194,14 +194,8 @@
 				"options": { "notnull": true, "length": 255, "default": "" }
 			}
 		],
-		"indexes": [
-			{
-				"name": "swsl_work_source_unique",
-				"columns": [ "swsl_workid", "swsl_sourceid" ],
-				"unique": true
-			}
-		],
-		"pk": []
+		"indexes": [],
+		"pk": [ "swsl_workid", "swsl_sourceid" ]
 	},
 	{
 		"name": "revsrc",

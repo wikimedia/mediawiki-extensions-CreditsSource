@@ -58,11 +58,11 @@ CREATE TABLE swauthor_links (
 
 
 CREATE TABLE swsource_links (
-  swsl_workid INT NOT NULL, swsl_sourceid INT NOT NULL,
-  swsl_comment TEXT DEFAULT '' NOT NULL
+  swsl_workid INT NOT NULL,
+  swsl_sourceid INT NOT NULL,
+  swsl_comment TEXT DEFAULT '' NOT NULL,
+  PRIMARY KEY(swsl_workid, swsl_sourceid)
 );
-
-CREATE UNIQUE INDEX swsl_work_source_unique ON swsource_links (swsl_workid, swsl_sourceid);
 
 
 CREATE TABLE revsrc (

@@ -77,5 +77,10 @@ class Hooks {
 			'swal_srcwork_author_unique',
 			"$base/$dbType/patch-swauthor_links-unique-to-pk.sql"
 		);
+		$updater->dropExtensionIndex(
+			'swsource_links',
+			'swsl_work_source_unique',
+			"$base/$dbType/patch-swsource_links-unique-to-pk.sql"
+		);
 	}
 }
