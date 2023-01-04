@@ -45,10 +45,9 @@ CREATE UNIQUE INDEX srcwork_uridate_unique ON /*_*/srcwork (
 
 CREATE TABLE /*_*/swauthor_links (
   swal_srcworkid INTEGER UNSIGNED NOT NULL,
-  swal_authorid INTEGER UNSIGNED NOT NULL
+  swal_authorid INTEGER UNSIGNED NOT NULL,
+  PRIMARY KEY(swal_srcworkid, swal_authorid)
 );
-
-CREATE UNIQUE INDEX swal_srcwork_author_unique ON /*_*/swauthor_links (swal_srcworkid, swal_authorid);
 
 
 CREATE TABLE /*_*/swsource_links (

@@ -46,7 +46,7 @@ CREATE TABLE /*_*/srcwork (
 CREATE TABLE /*_*/swauthor_links (
   swal_srcworkid INT UNSIGNED NOT NULL,
   swal_authorid INT UNSIGNED NOT NULL,
-  UNIQUE INDEX swal_srcwork_author_unique (swal_srcworkid, swal_authorid)
+  PRIMARY KEY(swal_srcworkid, swal_authorid)
 ) /*$wgDBTableOptions*/;
 
 
