@@ -54,7 +54,7 @@ CREATE TABLE /*_*/swsource_links (
   swsl_workid INT UNSIGNED NOT NULL,
   swsl_sourceid INT UNSIGNED NOT NULL,
   swsl_comment VARBINARY(255) DEFAULT '' NOT NULL,
-  UNIQUE INDEX swsl_work_source_unique (swsl_workid, swsl_sourceid)
+  PRIMARY KEY(swsl_workid, swsl_sourceid)
 ) /*$wgDBTableOptions*/;
 
 
