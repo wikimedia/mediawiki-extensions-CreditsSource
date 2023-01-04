@@ -82,5 +82,10 @@ class Hooks {
 			'swsl_work_source_unique',
 			"$base/$dbType/patch-swsource_links-unique-to-pk.sql"
 		);
+		$updater->dropExtensionIndex(
+			'revsrc',
+			'revsrc_rs_unique',
+			"$base/$dbType/patch-revsrc-unique-to-pk.sql"
+		);
 	}
 }

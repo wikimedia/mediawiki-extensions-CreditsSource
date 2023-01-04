@@ -66,13 +66,14 @@ CREATE TABLE swsource_links (
 
 
 CREATE TABLE revsrc (
-  revsrc_revid INT NOT NULL, revsrc_srcworkid INT NOT NULL,
+  revsrc_revid INT NOT NULL,
+  revsrc_srcworkid INT NOT NULL,
   revsrc_timestamp TIMESTAMPTZ NOT NULL,
-  revsrc_user INT NOT NULL, revsrc_user_text TEXT NOT NULL,
-  revsrc_comment TEXT NOT NULL
+  revsrc_user INT NOT NULL,
+  revsrc_user_text TEXT NOT NULL,
+  revsrc_comment TEXT NOT NULL,
+  PRIMARY KEY(revsrc_revid, revsrc_srcworkid)
 );
-
-CREATE UNIQUE INDEX revsrc_rs_unique ON revsrc (revsrc_revid, revsrc_srcworkid);
 
 CREATE INDEX revsrc_revid_index ON revsrc (revsrc_revid);
 
