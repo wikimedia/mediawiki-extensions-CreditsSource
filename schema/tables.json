@@ -64,46 +64,6 @@
 		"pk": [ "sws_id" ]
 	},
 	{
-		"name": "swauthor",
-		"columns": [
-			{
-				"name": "swa_id",
-				"comment": "The author's ID.",
-				"type": "integer",
-				"options": { "autoincrement": true, "notnull": true, "unsigned": true }
-			},
-			{
-				"name": "swa_site",
-				"type": "integer",
-				"options": { "notnull": true, "unsigned": true }
-			},
-			{
-				"name": "swa_user_name",
-				"type": "binary",
-				"options": { "notnull": false, "length": 255 }
-			},
-			{
-				"name": "swa_real_name",
-				"type": "binary",
-				"options": { "notnull": false, "length": 255 }
-			},
-			{
-				"name": "swa_uri_part",
-				"comment": "Concatenated with swsite.sws_user_uri, should identify the work unambiguously.",
-				"type": "binary",
-				"options": { "notnull": true, "length": 255 }
-			}
-		],
-		"indexes": [
-			{
-				"name": "swauthor_namesite_unique",
-				"columns": [ "swa_site", "swa_user_name" ],
-				"unique": true
-			}
-		],
-		"pk": [ "swa_id" ]
-	},
-	{
 		"name": "srcwork",
 		"comment": "All RDF information about a source work is stored here, one source work per row. A source work is identified either by its ID or by the about-date pair.",
 		"columns": [
@@ -153,49 +113,6 @@
 			}
 		],
 		"pk": [ "srcwork_id" ]
-	},
-	{
-		"name": "swauthor_links",
-		"columns": [
-			{
-				"name": "swal_srcworkid",
-				"comment": "The source work's ID as used in 'srcwork.srcwork_id'.",
-				"type": "integer",
-				"options": { "notnull": true, "unsigned": true }
-			},
-			{
-				"name": "swal_authorid",
-				"comment": "The source work's author's ID as used in 'swauthor.swa_id'.",
-				"type": "integer",
-				"options": { "notnull": true, "unsigned": true }
-			}
-		],
-		"indexes": [],
-		"pk": [ "swal_srcworkid", "swal_authorid" ]
-	},
-	{
-		"name": "swsource_links",
-		"columns": [
-			{
-				"name": "swsl_workid",
-				"comment": "The source work's ID as used in 'srcwork.srcwork_id'.",
-				"type": "integer",
-				"options": { "notnull": true, "unsigned": true }
-			},
-			{
-				"name": "swsl_sourceid",
-				"comment": "The source work's own source ID as used in 'srcwork.srcwork_id'.",
-				"type": "integer",
-				"options": { "notnull": true, "unsigned": true }
-			},
-			{
-				"name": "swsl_comment",
-				"type": "binary",
-				"options": { "notnull": true, "length": 255, "default": "" }
-			}
-		],
-		"indexes": [],
-		"pk": [ "swsl_workid", "swsl_sourceid" ]
 	},
 	{
 		"name": "revsrc",

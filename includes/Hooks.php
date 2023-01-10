@@ -25,31 +25,11 @@ class Hooks {
 			// 1.39
 			$updater->addExtensionUpdate( [
 				'dropFkey',
-				'swauthor', 'swa_site'
-			] );
-			$updater->addExtensionUpdate( [
-				'dropFkey',
 				'srcwork', 'srcwork_creator'
 			] );
 			$updater->addExtensionUpdate( [
 				'dropFkey',
 				'srcwork', 'srcwork_site'
-			] );
-			$updater->addExtensionUpdate( [
-				'dropFkey',
-				'swauthor_links', 'swal_srcworkid'
-			] );
-			$updater->addExtensionUpdate( [
-				'dropFkey',
-				'swauthor_links', 'swal_authorid'
-			] );
-			$updater->addExtensionUpdate( [
-				'dropFkey',
-				'swsource_links', 'swsl_workid'
-			] );
-			$updater->addExtensionUpdate( [
-				'dropFkey',
-				'swsource_links', 'swsl_sourceid'
 			] );
 			$updater->addExtensionUpdate( [
 				'dropFkey',
@@ -59,13 +39,6 @@ class Hooks {
 				'dropFkey',
 				'revsrc', 'revsrc_srcworkid'
 			] );
-			$updater->addExtensionUpdate( [
-				'addPgIndex',
-				'swauthor', 'swauthor_namesite_unique', '(swa_site, swa_user_name)', true
-			] );
-			$updater->addExtensionIndex(
-				'swauthor', 'swauthor_namesite_unique', "$base/$dbType/patch-swauthor_namesite_unique.sql"
-			);
 			$updater->addExtensionUpdate(
 				[ 'dropDefault', 'revsrc', 'revsrc_comment' ]
 			);
@@ -73,19 +46,12 @@ class Hooks {
 
 		// 1.40
 		$updater->dropExtensionIndex(
-			'swauthor_links',
-			'swal_srcwork_author_unique',
-			"$base/$dbType/patch-swauthor_links-unique-to-pk.sql"
-		);
-		$updater->dropExtensionIndex(
-			'swsource_links',
-			'swsl_work_source_unique',
-			"$base/$dbType/patch-swsource_links-unique-to-pk.sql"
-		);
-		$updater->dropExtensionIndex(
 			'revsrc',
 			'revsrc_rs_unique',
 			"$base/$dbType/patch-revsrc-unique-to-pk.sql"
 		);
+		$updater->dropExtensionTable( 'swauthor' );
+		$updater->dropExtensionTable( 'swauthor_links' );
+		$updater->dropExtensionTable( 'swsource_links' );
 	}
 }
