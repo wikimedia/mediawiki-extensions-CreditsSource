@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"creditssource-desc": "Omogča navedbo imen avtorjev izvornega dela v nogi strani",
+	"creditssource-credits": "Ta stran izvira iz strani [$1 $2 ] dne [$3 $4] v njeni redakciji $8 ob $9 (UTC). Tam je objavljena pod licenco CC BY-SA 3.0. Več podrobnosti in celoten seznam sodelujočih najdete na povezani [$5 strani zgodovine]. Sodelavci Wikipotovanja so označeni s predpono $6.",
+	"creditssource-creditpage": "Navede avtorje izvornega dela."
+}
