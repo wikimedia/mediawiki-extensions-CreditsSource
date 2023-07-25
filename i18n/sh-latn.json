@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"creditssource-desc": "Prikaz izvorne zasluge u podnožju stranice",
+	"creditssource-credits": "Ova je stranica izvedena iz stranice [$1 $2] na [$3 $4] u svojoj reviziji na datum $8 u $9 (UTC). Tamo je objavljen pod licencom CC BY-SA 3.0. Više detalja i potpuni spisak suradnika možete pronaći na povezanoj [$5 historiji]. Suradnici Wikitravela označeni su prefiksom $6.",
+	"creditssource-creditpage": "Daje zasluge za izvorne radove."
+}
