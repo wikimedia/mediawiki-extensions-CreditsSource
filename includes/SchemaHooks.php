@@ -3,14 +3,15 @@
 namespace MediaWiki\Extension\CreditSource;
 
 use DatabaseUpdater;
+use MediaWiki\Installer\Hook\LoadExtensionSchemaUpdatesHook;
 
-class Hooks {
+class SchemaHooks implements LoadExtensionSchemaUpdatesHook {
 	/**
 	 * LoadExtensionSchemaUpdates hook
 	 *
 	 * @param DatabaseUpdater $updater
 	 */
-	public static function loadExtensionSchemaUpdates( DatabaseUpdater $updater ) {
+	public function onLoadExtensionSchemaUpdates( $updater ) {
 		$dbType = $updater->getDB()->getType();
 		$base = dirname( __DIR__, 1 ) . '/schema';
 		$updater->addExtensionTable( 'revsrc', "$base/$dbType/tables-generated.sql" );

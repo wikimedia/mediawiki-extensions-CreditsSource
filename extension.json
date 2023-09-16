@@ -13,7 +13,12 @@
 		"MediaWiki": ">= 1.41"
 	},
 	"Hooks": {
-		"LoadExtensionSchemaUpdates": "MediaWiki\\Extension\\CreditSource\\Hooks::loadExtensionSchemaUpdates"
+		"LoadExtensionSchemaUpdates": "schema"
+	},
+	"HookHandlers": {
+		"schema": {
+			"class": "MediaWiki\\Extension\\CreditSource\\SchemaHooks"
+		}
 	},
 	"MessagesDirs": {
 		"CreditsSource": [
