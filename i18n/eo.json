@@ -1,7 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yekrats"
+			"Yekrats",
+			"Ziko"
 		]
-	}
+	},
+	"creditssource-desc": "Montru fontajn laborkreditojn en la paĝopiedo",
+	"creditssource-creditpage": "Donas kreditojn por fontverkoj."
 }
