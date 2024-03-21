@@ -2,6 +2,8 @@
 
 namespace MediaWiki\Extension\CreditSource;
 
+use MediaWiki\MediaWikiServices;
+
 class SimpleSourceWork {
 	/** @var string|null */
 	public $mId;
@@ -33,7 +35,7 @@ class SimpleSourceWork {
 	 * @return SimpleSourceWork[]
 	 */
 	protected static function loadFromDb( $pageId, $limit = 10 ) {
-		$dbr = wfGetDB( DB_REPLICA );
+		$dbr = MediaWikiServices::getInstance()->getConnectionProvider()->getReplicaDatabase();
 
 		$rows = $dbr->select(
 			[ 'revision', 'revsrc', 'srcwork', 'swsite' ],
