@@ -37,30 +37,19 @@ class SimpleSourceWork {
 	protected static function loadFromDb( $pageId, $limit = 10 ) {
 		$dbr = MediaWikiServices::getInstance()->getConnectionProvider()->getReplicaDatabase();
 
-		$rows = $dbr->select(
-			[ 'revision', 'revsrc', 'srcwork', 'swsite' ],
-			[
+		$rows = $dbr->newSelectQueryBuilder()
+			->select( [
 				'srcwork_id', 'srcwork_uri_part', 'srcwork_date', 'srcwork_title',
 				'sws_name', 'sws_short_name', 'sws_site_uri', 'sws_work_uri'
-			],
-			[ 'rev_page' => $pageId ],
-			__METHOD__,
-			[ 'LIMIT' => $limit ],
-			[
-				'revsrc' => [
-					'INNER JOIN',
-					[ 'revsrc_revid = rev_id' ]
-				],
-				'srcwork' => [
-					'INNER JOIN',
-					[ 'srcwork_id = revsrc_srcworkid' ]
-				],
-				'swsite' => [
-					'LEFT JOIN',
-					[ 'srcwork_site = sws_id' ]
-				]
-			]
-		);
+			] )
+			->from( 'revision' )
+			->join( 'revsrc', null, 'revsrc_revid = rev_id' )
+			->join( 'srcwork', null, 'srcwork_id = revsrc_srcworkid' )
+			->leftJoin( 'swsite', null, 'srcwork_site = sws_id' )
+			->where( [ 'rev_page' => $pageId ] )
+			->limit( $limit )
+			->caller( __METHOD__ )
+			->fetchResultSet();
 
 		$sources = [];
 		foreach ( $rows as $row ) {
