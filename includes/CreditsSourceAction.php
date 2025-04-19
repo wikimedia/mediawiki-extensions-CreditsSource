@@ -2,7 +2,7 @@
 
 namespace MediaWiki\Extension\CreditSource;
 
-use FormlessAction;
+use MediaWiki\Actions\FormlessAction;
 use MediaWiki\Html\Html;
 
 class CreditsSourceAction extends FormlessAction {
