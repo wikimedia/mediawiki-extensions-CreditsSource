@@ -10,7 +10,7 @@
 	"descriptionmsg": "creditssource-desc",
 	"type": "other",
 	"requires": {
-		"MediaWiki": ">= 1.45"
+		"MediaWiki": ">= 1.46"
 	},
 	"Hooks": {
 		"LoadExtensionSchemaUpdates": "schema"
