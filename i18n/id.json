@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Daud I.F. Argana",
-			"Farras"
+			"Farras",
+			"Penyuwangi"
 		]
 	},
 	"creditssource-desc": "Menampilkan penghargaan karya sumber di kaki halaman",
-	"creditssource-credits": "Halaman ini diturunkan dari halaman [$1 $2] di [$3 $4] dalam revisi pada $8 pukul $9 (UTC). Di sana, halamannya diterbitkan di bawah lisensi CC BY-SA 3.0. Detail lebih lanjut dan daftar lengkap kontributor bisa ditemukan di [$5 halaman riwayat] yang sesuai. Kontributor Wikitravel ditandai dengan awalan $6.",
+	"creditssource-credits": "Halaman ini diturunkan dari halaman [$1 $2] di [$3 $4] dalam revisi pada $8 pukul $9 (UTC). Di sana, halamannya diterbitkan di bawah lisensi CC BY-SA 3.0. Rincian lebih lanjut dan daftar lengkap kontributor bisa ditemukan di [$5 halaman riwayat] yang sesuai. Kontributor Wikitravel ditandai dengan awalan $6.",
 	"creditssource-creditpage": "Memberikan penghargaan untuk karya sumber."
 }
