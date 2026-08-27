@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"creditssource-desc": "Zobrazuje poďakovanie zdrojovému dielu v päte stránky",
+	"creditssource-credits": "Táto stránka je odvodená zo stránky [$1 $2] na [$3 $4] v jej revízii z $8 o $9 (UTC). Tam je zverejnená pod licenciou CC BY-SA 3.0. Ďalšie podrobnosti a úplný zoznam prispievateľov nájdete na súvisiacej [$5 stránke histórie]. Prispievatelia Wikitravelu sú označení predponou $6.",
+	"creditssource-creditpage": "Uvádza poďakovanie zdrojovým dielam."
+}
